@@ -1,0 +1,184 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 5.5,
+      "texts": [
+        "$550",
+        "- From the Fridge",
+        "Obela Hommus",
+        "Dips 220g",
+        "$1",
+        "$1.82 per 100g",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 21.33,
+      "texts": [
+        "WC040326/NSW28",
+        "Tegel Gluten Free",
+        "Crispy Chicken",
+        "$8",
+        "$2",
+        "SAVE",
+        "$21.33 per kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.7,
+      "texts": [
+        "Kez's Gluten Free",
+        "- From the Health",
+        "Biscuits 165-190g",
+        "$470",
+        "SAVE",
+        "$3.20",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "Kez's Gluten Free",
+        "- From the Health",
+        "Obela Hommus",
+        "Food Aisle",
+        "Biscuits 165-190g",
+        "$4",
+        "SAVE",
+        "$1",
+        "$1.82 per 100g",
+        "$3.20",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.0,
+      "texts": [
+        "MELTING MOMENTS",
+        "$5",
+        "270g",
+        "Kellogg's Corn",
+        "Breakfast Cereal",
+        "Flakes Gluten Free",
+        "$1.85 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.0,
+      "texts": [
+        "Gluten Free",
+        "Bare Bakers",
+        "$7",
+        "270g",
+        "Breakfast Cereal",
+        "Flakes Gluten Free",
+        "$2.59 per 100g",
+        "SAVE",
+        "50\u00a2"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 18.75,
+      "texts": [
+        "375,",
+        "V2 Plant Protein",
+        "Mince 400g",
+        "- From the Fridge",
+        "$18.75 per kg",
+        "$1",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.8,
+      "texts": [
+        "Ceres Rice Cakes 110g",
+        "$280",
+        "- From the Health",
+        "SAVE",
+        "$1.20",
+        "$2.55 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 17.45,
+      "texts": [
+        "$1745",
+        "Nutra Naturals",
+        "Bone Broth 190g",
+        "SAVE",
+        "$9.18 per 100g",
+        "$7.50",
+        "Added"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 9.18,
+      "texts": [
+        "192g Pk 6",
+        "BFree Pita Pockets",
+        "Nutra Naturals",
+        "Food Aisle",
+        "$6",
+        "- From the Health",
+        "Bone Broth 190g",
+        "SAVE",
+        "$1",
+        "$9.18 per 100g",
+        "$3.13 per 100g",
+        "$7.50",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.0,
+      "texts": [
+        "192g Pk 6",
+        "Simply Wize",
+        "BFree Pita Pockets",
+        "Gluten Free",
+        "$6",
+        "$1",
+        "$6",
+        "SAVE",
+        "$2.73 per 100g",
+        "$3.13 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_28.png",
+      "week": "2026-W11"
+    }
+  ]
+}

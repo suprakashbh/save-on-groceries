@@ -1,0 +1,127 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 0.8,
+      "texts": [
+        "500mL $0.80 per 100mL",
+        "Listerine Freshburst or",
+        "Freshburst Zero Mouthwash",
+        "$4",
+        "SAVE$4",
+        "WAS$8",
+        "LISTERINE",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_6.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.75,
+      "texts": [
+        "Unscented Liners 42 Pack",
+        "Carefree Barely There",
+        "$0.07 per each",
+        "SAVE$2.75",
+        "$275",
+        "WAS$5.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_6.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 12.5,
+      "texts": [
+        "Bonds Bloody Comfy Full Brief",
+        "Heavy Period Underwear Size",
+        "$12.50 per each",
+        "12 or 14 1 Pack",
+        "SAVE$12.50",
+        "$1250",
+        "WAS$25",
+        "BONDS",
+        "bloody comty"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_6.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "Soft Toothbrush 2 Pack",
+        "Colgate Gentle Clean",
+        "$3.00 per each",
+        "$6",
+        "SAVE $6",
+        "WAS$12",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_6.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.39,
+      "texts": [
+        "Hismile V34 Whitening Strips",
+        "14 pack $1.39 per each",
+        "SAVE$19.50",
+        "WAS $39",
+        "30"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_6.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.75,
+      "texts": [
+        "Gillette Blue 3 Disposable",
+        "$0.75 per each",
+        "Razors 30 Pack",
+        "SAVE$22.50",
+        "$2250",
+        "WAS$45"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_6.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.0,
+      "texts": [
+        "Tablets 20 Pack^",
+        "Voost Hydration Effervescent",
+        "$0.30 per each",
+        "$6",
+        "SAVE$6",
+        "WAS$12",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_6.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "Toothpaste 115g",
+        "Colgate Total Active Prevention",
+        "Deep Clean or Whitening",
+        "$3.04 per 100g",
+        "Colgate",
+        "SAVE$3.50",
+        "$250",
+        "Colgate",
+        "WAS $7",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_6.png",
+      "week": "2026-W11"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 2.25,
+      "texts": [
+        "500g",
+        "Uncle Tobys Oats",
+        "$225",
+        "45c per 100g",
+        "SAVE",
+        "$2.25",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.75,
+      "texts": [
+        "Nestl\u00e9 Milo",
+        "Cereal 535-620g",
+        "$475",
+        "$4.75",
+        "Bricks Home",
+        "SAVE",
+        "bonus",
+        "Buy 1",
+        "Pack^",
+        "get a"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.45,
+      "texts": [
+        "Vege Chips 100g",
+        "- From the Health",
+        "$245",
+        "SAVE",
+        "$2.45",
+        "$2.45 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.5,
+      "texts": [
+        "Nescaf\u00e9 Espresso",
+        "or Nescaf\u00e9 Freeze Dried",
+        "Concentrates 500ml",
+        "$550",
+        "SAVE",
+        "$5.50"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 13.5,
+      "texts": [
+        "SunRice Jasmine",
+        "Fragrant Rice 5 kg",
+        "$13.50",
+        "27\u00a2 per 100g",
+        "$13.50",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.4,
+      "texts": [
+        "Cereal 600g",
+        "Nestl\u00e9 Nesquik",
+        "$440",
+        "73\u00a2 per 100g",
+        "Bricks Home",
+        "$4.40",
+        "SAVE",
+        "bonus",
+        "Buy 1",
+        "Pack^",
+        "geta"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_4.png",
+      "week": "2026-W11"
+    }
+  ]
+}

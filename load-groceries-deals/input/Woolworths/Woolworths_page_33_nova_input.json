@@ -1,0 +1,121 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "Yoghurt Pouch 150g",
+        "YoPRO High Protein",
+        "Varieties 320-450g",
+        "My Muscle Chef Meal",
+        "- From the Fridge",
+        "$250",
+        "SAVE",
+        "$1.67 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_33.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.0,
+      "texts": [
+        "Varieties 320-450g",
+        "My Muscle Chef Meal",
+        "- From the Fridge",
+        "SAVE",
+        "$2",
+        "95",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_33.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.25,
+      "texts": [
+        "Twisted Minis",
+        "$425",
+        "89\u00a2 per 100ml",
+        "SAVE",
+        "$4.25"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_33.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.5,
+      "texts": [
+        "475ml",
+        "480ml Pk 4",
+        "Twisted Protein Pint",
+        "Frozen Yoghurt",
+        "SAVE",
+        "$5.50",
+        "$1.16 per 100ml",
+        "95"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_33.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.75,
+      "texts": [
+        "X4",
+        "Zero Added Sugar",
+        "Twisted Licks",
+        "$475",
+        "$1.48 per 100ml",
+        "SAVE",
+        "$4.75"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_33.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.0,
+      "texts": [
+        "ZERO",
+        "X4",
+        "Zero Added Sugar",
+        "460ml Pk 4",
+        "Twisted Protein Sticks",
+        "Twisted Licks",
+        "Sticks 320ml Pk 4",
+        "$7",
+        "$1.48 per 100ml",
+        "$7",
+        "SAVE",
+        "SAVE",
+        "$4.75",
+        "$1.52 per 100ml"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_33.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.24,
+      "texts": [
+        "HIGH PROTEIN",
+        "MY MUSCLE",
+        "Chipotle Chicken",
+        "CHEF",
+        "Burrito Bowl",
+        "Smoothie 425ml",
+        "Rokeby Protein",
+        "$350",
+        "$8.24 per litre",
+        "$1.15",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_33.png",
+      "week": "2026-W11"
+    }
+  ]
+}

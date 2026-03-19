@@ -1,0 +1,113 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 1.0,
+      "texts": [
+        "Primo Stackers 45g-57g",
+        "*See page 33 for T&Cs",
+        "$350",
+        "WAS $4.50",
+        "SAVE$1",
+        "ea",
+        "STACKERS",
+        "Primo"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.6,
+      "texts": [
+        "Don Sliced Meat 160g-200g",
+        "*See page 33 for T&Cs",
+        "SAVE$1.60",
+        "$5",
+        "WAS $6.60",
+        "LEG HAM",
+        "pk",
+        "SHAVED"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.0,
+      "texts": [
+        "Black Swan Favourites Dip 200g",
+        "$1.75 per 100g. *See page 33 for T&Cs",
+        "SAVE $2",
+        "$7",
+        "2 for",
+        "ONION",
+        "Favourites",
+        "FRENCH",
+        "BLACK SWA"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.27,
+      "texts": [
+        "Ice Break Iced Coffee 750mL",
+        "$5.27 per litre",
+        "$395"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.8,
+      "texts": [
+        "WAS$7.80",
+        "pk",
+        "FRANKS",
+        "FOOTY",
+        "SKINLESS"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 12.0,
+      "texts": [
+        "Pickers Snacks",
+        "230g-350g",
+        "$12",
+        "SAVE $3",
+        "2 for",
+        "MOZZARELLA",
+        "MINI STICKS"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 10.0,
+      "texts": [
+        "Youfoodz Regular Meal",
+        "300g-350g *See page 33 for T&Cs",
+        "Pizza 445g-500g",
+        "Coles Kitchen Limited Edition",
+        "DOWN DOWN",
+        "$10",
+        "JAN 2026",
+        "WAS $11",
+        "YOUFOODZ",
+        "Carbonara",
+        "Creamy Chicken",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_13.png",
+      "week": "2026-W11"
+    }
+  ]
+}

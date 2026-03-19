@@ -1,0 +1,153 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "Allen's Lollies",
+        "140g-200g",
+        "$250",
+        "SAVE$2.50",
+        "Snakes",
+        "Allen's",
+        "WAS$5",
+        "alive",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 12.0,
+      "texts": [
+        "I&J Raw Prawns Tail Off 500g",
+        "$24.00 per kg",
+        "$12",
+        "SAVE$12",
+        "WAS$24"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.25,
+      "texts": [
+        "30g-55g",
+        "Cadbury Chocolate Bar",
+        "PRICE",
+        "1/2",
+        "BETTER",
+        "THAN",
+        "SAVE$1.75",
+        "$125",
+        "WAS$3",
+        "ea",
+        "Cadbury"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.9,
+      "texts": [
+        "Tasmanian Heritage Double",
+        "200g $29.50 per kg",
+        "Cream Brie or Camembert",
+        "SAVE$6.05",
+        "$590",
+        "WAS $11.95",
+        "TASMANIAN",
+        "Double Brie",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.3,
+      "texts": [
+        "Aerosol Deodorant 250mL",
+        "Dove Advanced 72hr",
+        "$2.30 per 100mL",
+        "SAVE$5.75",
+        "$575",
+        "WAS$11.50",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.4,
+      "texts": [
+        "Pepsi or Solo Soft Drink",
+        "1.25 Litre $1.40 per litre",
+        "SAVE$1.75",
+        "$175",
+        "WAS$3.50",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.1,
+      "texts": [
+        "475mL-500mL",
+        "Tomato or Barbecue Sauce",
+        "MasterFoods Squeeze",
+        "$210",
+        "SAVE$2.10",
+        "WAS$4.20",
+        "ea",
+        "TOMATO",
+        "- SAUCE"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 9.0,
+      "texts": [
+        "2 Litre $9.00 per litre.",
+        "Omo Ultimate Laundry Liquid",
+        "On sale for 2 weeks",
+        "$18",
+        "SAVE$18",
+        "WAS$36",
+        "ULTIMATE"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.4,
+      "texts": [
+        "Schweppes Mixers 10x375mL",
+        "Pepsi or Solo Soft Drink or",
+        "$2.40 per litre",
+        "Schweppes",
+        "PRICE",
+        "1/2",
+        "BETTER",
+        "$9",
+        "THAN",
+        "SAVE$10",
+        "WAS$19",
+        "ea",
+        "LEMON LIME"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_2.png",
+      "week": "2026-W11"
+    }
+  ]
+}

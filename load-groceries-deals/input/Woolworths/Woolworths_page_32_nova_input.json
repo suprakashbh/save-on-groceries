@@ -1,0 +1,140 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 1.55,
+      "texts": [
+        "Yoghurt Pouch",
+        "Tub 1 Litre",
+        "Vaalia Kids",
+        "Bulla Splits Sorbet",
+        "$155",
+        "SAVE",
+        "$1.11 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_32.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.38,
+      "texts": [
+        "Yoghurt Pouch",
+        "bubbleme Sorbet",
+        "140g",
+        "Vaalia Kids",
+        "- From the Fridge",
+        "$350",
+        "$4.38 per 100g",
+        "SAVE",
+        "$3.50"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_32.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.0,
+      "texts": [
+        "Tub 1 Litre",
+        "Bulla Splits Sorbet",
+        "$5",
+        "SAVE",
+        "50\u00a2 per 100ml",
+        "$5"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_32.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.0,
+      "texts": [
+        "$8",
+        "360-400ml Pk 4-6",
+        "Ice Cream Sticks",
+        "YoPRO High Protein Yoghurt 700g",
+        "- From the Fridge",
+        "$1.14 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_32.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.2,
+      "texts": [
+        "Tamar Valley Greek",
+        "Style Yoghurt 1 kg",
+        "$620",
+        "62\u00a2 per 100g",
+        "$1.80",
+        "SAVE",
+        "Mango Sorbet",
+        "sorbet",
+        "CREAM",
+        "puree"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_32.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.1,
+      "texts": [
+        "360-400ml Pk 4-6",
+        "Connoisseur",
+        "Ice Cream Sticks",
+        "SAVE",
+        "$4.10"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_32.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.5,
+      "texts": [
+        "& Creamy Yoghurt",
+        "140-150g",
+        "Dairy Farmers Thick",
+        "$150",
+        "SAVE",
+        "$1.45"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_32.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.5,
+      "texts": [
+        "$850",
+        "192g Pk 6",
+        "Mochi Bites",
+        "Little Moons",
+        "Yoplait Yoghurt 12 X 100g",
+        "- From the Fridge",
+        "71c per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_32.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "- From the Fridge",
+        "Dairy Farmers Thick & Creamy 4 X 110g",
+        "$4",
+        "91c per 100g",
+        "$1.50",
+        "SAVE",
+        "FIELD STRAWBERR"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_32.png",
+      "week": "2026-W11"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 36.88,
+      "texts": [
+        "Gummies Pk 40-",
+        "Little Swisse Vitamin C + Zinc",
+        "$1475",
+        "$36.88 per 100 ea",
+        "$14.75",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 17.5,
+      "texts": [
+        "Tablets Pk 150-",
+        "Swisse Ultiboost",
+        "Calcium + Vitamin D",
+        "SAVE",
+        "$11.67 per 100 ea",
+        "$17.50"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 29.5,
+      "texts": [
+        "SUPPORTS STRONG BONES TEETH",
+        "MAINTAINS BONE DENSITY",
+        "BONE & MUSCLE HEALTH",
+        "150 FILM COATED TABLETS",
+        "Little Swisse Prebiotic + Probiotic",
+        "Gummies Pk 50-",
+        "$1475",
+        "$29.50 per 100 ea",
+        "$14.75",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 24.75,
+      "texts": [
+        "Little Swisse Sleep",
+        "Gummies Pk 100-",
+        "$2475",
+        "$24.75 per 100 ea",
+        "$24.75",
+        "SAVE",
+        "Bricks Home",
+        "bonus",
+        "Buy 1",
+        "Pack^",
+        "get a"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_7.png",
+      "week": "2026-W11"
+    }
+  ]
+}

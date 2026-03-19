@@ -1,0 +1,134 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 2.3,
+      "texts": [
+        "Tea Bags 100 Pack",
+        "NSW-METRO-0403-26-630050",
+        "Madura Premium Blend",
+        "$0.09 per each",
+        "SAVE$2.30",
+        "$850",
+        "WAS $10.80",
+        "ea",
+        "PREMIUM",
+        "BLEND",
+        "200g"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.0,
+      "texts": [
+        "Nerada English Breakfast Tea Bags",
+        "100 Pack $0.05 per each",
+        "$460",
+        "WAS $5.60",
+        "SAVE",
+        "Nerada Premium Blend",
+        "ea",
+        "$1",
+        "English Breakfast"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.54,
+      "texts": [
+        "Moccona Liquid Espresso Coffee Sachets",
+        "8 Pack $0.54 per each",
+        "SAVE $4.30",
+        "$",
+        "WAS $8.60"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "$9",
+        "ARKADIA",
+        "SAVE$4",
+        "WAS$13",
+        "98%",
+        "HOT",
+        "CHAI",
+        "Latte",
+        "SPICE"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.0,
+      "texts": [
+        "Madame Flavour Tea Bags",
+        "15 Pack-18 Pack",
+        "$6",
+        "SAVE $2",
+        "WAS$8"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 11.5,
+      "texts": [
+        "26",
+        "200g $5.75 per 100g",
+        "Grinders Ground Coffee",
+        "SAVE$2.50",
+        "$11.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 14.0,
+      "texts": [
+        "WAS $14",
+        "CREMA"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.0,
+      "texts": [
+        "$32",
+        "SAVE$8",
+        "WAS$40",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "Excludes Organic",
+        "Lavazza Espresso Barista",
+        "Coffee Beans 1kg",
+        "$3.00 per 100g.",
+        "$30",
+        "SAVE $14",
+        "WAS $44"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_26.png",
+      "week": "2026-W11"
+    }
+  ]
+}

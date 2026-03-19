@@ -1,0 +1,108 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 5.9,
+      "texts": [
+        "Tomatoes 200g Pack",
+        "Australian Grape",
+        "Australian Red or Green",
+        "$590",
+        "Capsicums",
+        "kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 15.0,
+      "texts": [
+        "Tomatoes 200g Pack",
+        "Australian Grape",
+        "$3",
+        "$15 per kg",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.7,
+      "texts": [
+        "$270",
+        "Australian Baby",
+        "Was",
+        "or Gourmet Leaf",
+        "Woolworths",
+        "$3.30 24/2/26",
+        "Leaf Rocket 120g",
+        "$22.50 per kg",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "Washed Potatoes",
+        "Australian White",
+        "Zucchini",
+        "2 kg Pack",
+        "$6",
+        "$3 per kg",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.9,
+      "texts": [
+        "Zucchini",
+        "Australian Green",
+        "$390",
+        "kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.0,
+      "texts": [
+        "Washed Potatoes",
+        "2 kg Pack",
+        "Woolworths Roasted",
+        "Bowl 200g, Chicken",
+        "Beetroot & Fetta Salad",
+        "$6",
+        "50\u00a2",
+        "SAVE",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.67,
+      "texts": [
+        "$550",
+        "$6 24/2/26",
+        "Australian Lower Carb",
+        "Was",
+        "Potatoes 1.5 kg Pack",
+        "$3.67 per kg",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_14.png",
+      "week": "2026-W11"
+    }
+  ]
+}

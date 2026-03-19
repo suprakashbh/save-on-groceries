@@ -1,0 +1,15 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 30.0,
+      "texts": [
+        "products in a $30 shop*",
+        "Bonus Bricks pack"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_5.png",
+      "week": "2026-W11"
+    }
+  ]
+}

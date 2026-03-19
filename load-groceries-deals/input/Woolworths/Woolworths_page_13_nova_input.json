@@ -1,0 +1,65 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 26.47,
+      "texts": [
+        "Australian Blackberries",
+        "170g Punnet",
+        "$450",
+        "$26.47 per kg",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.5,
+      "texts": [
+        "Australian William",
+        "Bartlett Pears",
+        "$350",
+        "kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.0,
+      "texts": [
+        "$1",
+        "FRESH",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "Seedless Grapes",
+        "Australian White",
+        "$4",
+        "kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_13.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.9,
+      "texts": [
+        "Australian",
+        "Mi Apple\u2122 Apples",
+        "$490",
+        "kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_13.png",
+      "week": "2026-W11"
+    }
+  ]
+}

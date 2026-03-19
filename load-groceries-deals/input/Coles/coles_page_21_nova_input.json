@@ -1,0 +1,80 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 3.2,
+      "texts": [
+        "Coles Green Asparagus Bunch",
+        "$3.20 per each",
+        "$320"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_21.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 9.0,
+      "texts": [
+        "290g or Asian Style Salad Kit 350g",
+        "Coles Kitchen Caesar Salad Kit",
+        "SAVE $2",
+        "$9",
+        "2 for",
+        "SALAD KIT",
+        "CAESAR",
+        "Kitchen"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_21.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.9,
+      "texts": [
+        "$690"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_21.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "100% Aussie Cucumbers",
+        "$3"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_21.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 12.6,
+      "texts": [
+        "Coles Australian White Cup or Sliced",
+        "Mushrooms 500g Pack $12.60 per kg",
+        "$630",
+        "pk"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_21.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.0,
+      "texts": [
+        "Roasted & Salted Almonds 750g",
+        "Coles Dry Roasted, Natural or",
+        "$18.67 per kg",
+        "$14",
+        "SAVE$2",
+        "WAS$16",
+        "DRY ROASTED",
+        "ALMONDS",
+        "pk"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_21.png",
+      "week": "2026-W11"
+    }
+  ]
+}

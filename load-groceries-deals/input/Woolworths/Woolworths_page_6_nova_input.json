@@ -1,0 +1,47 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 4.75,
+      "texts": [
+        "Uncle Tobys Plus",
+        "Cereal 620-705g",
+        "$475",
+        "$4.75",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_6.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.0,
+      "texts": [
+        "Find out more at woolworths.com.au/bricks",
+        "ready to Collect. Build. Play.",
+        "Woolworths Bricks Home.",
+        "Gather the family and get",
+        "$6",
+        "$1.50",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_6.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.4,
+      "texts": [
+        "$840",
+        "Quilton Double Length",
+        "3 Ply Toilet Paper Pk 8",
+        "29\u00a2 per 100 sheets",
+        "SAVE",
+        "$3.60"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_6.png",
+      "week": "2026-W11"
+    }
+  ]
+}

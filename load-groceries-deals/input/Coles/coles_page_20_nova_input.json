@@ -1,0 +1,27 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 3.5,
+      "texts": [
+        "NSW-METRO-0403-26-630050",
+        "Australian Rockmelon",
+        "$3.50 per each",
+        "$350"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_20.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.5,
+      "texts": [
+        "Australian Black or Red Plums",
+        "$450"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_20.png",
+      "week": "2026-W11"
+    }
+  ]
+}

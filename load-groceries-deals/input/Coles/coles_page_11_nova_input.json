@@ -1,0 +1,55 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 2.2,
+      "texts": [
+        "Chips 175g $1.26 per 100g",
+        "Coles Crinkle Cut Potato",
+        "$220",
+        "ORIGINAL",
+        "CRINKLE",
+        "CUT CHIPS",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_11.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.0,
+      "texts": [
+        "Coles Ice Tea 1.25 Litre",
+        "$1.60 per litre",
+        "$2",
+        "PEACH"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_11.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.0,
+      "texts": [
+        "Coles Frozen Mini Hot Jam",
+        "Donuts 175g $2.86 per 100g",
+        "$5",
+        "DID SAY SOMEONE"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_11.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.5,
+      "texts": [
+        "Tub 1 Litre $0.65 per 100mL",
+        "Coles Irresistible Ice Cream",
+        "$650"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_11.png",
+      "week": "2026-W11"
+    }
+  ]
+}

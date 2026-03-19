@@ -1,0 +1,174 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 4.06,
+      "texts": [
+        "Ostelin Calcium & Vitamin",
+        "D3 + K2 Tablets 60 Pack",
+        "Chewable Tablets 320 Pack",
+        "Cenovis Sugarless C 500mg",
+        "$34.17 per 100 each",
+        "$4.06 per 100 each",
+        "SAVE $20.50",
+        "$20.50",
+        "WAS$41"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.5,
+      "texts": [
+        "Swisse Ultiboost Iron Tablets",
+        "30 Pack $25.00 per 100 each",
+        "D3 + K2 Tablets 60 Pack",
+        "$34.17 per 100 each",
+        "$750",
+        "SAVE$7.50",
+        "WAS$15"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.94,
+      "texts": [
+        "Swisse Ultiboost Iron Tablets",
+        "30 Pack $25.00 per 100 each",
+        "Swisse Ultiboost Vitamin D",
+        "Capsules 400 Pack",
+        "$4.94 per 100 each",
+        "SAVE$19.75",
+        "$1975",
+        "WAS $39.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 20.5,
+      "texts": [
+        "Ostelin Calcium & Vitamin",
+        "D3 + K2 Tablets 60 Pack",
+        "$34.17 per 100 each",
+        "SAVE $20.50",
+        "$20.50",
+        "WAS$41"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 12.29,
+      "texts": [
+        "Swisse Ultiboost Zinc+ Tablets",
+        "Swisse Ultiboost Magnesium +",
+        "Sleep Tablets 100 Pack",
+        "$24.75 per 100 each",
+        "120 Pack $12.29 per 100 each",
+        "SAVE$24.75",
+        "$2475",
+        "WAS $49.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 9.0,
+      "texts": [
+        "Tablets 200 Pack",
+        "Sulfate with Chondroitin",
+        "Nature's Own Glucosamine",
+        "$9.00 per 100 each",
+        "$18",
+        "SAVE",
+        "WAS $36",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 9.8,
+      "texts": [
+        "D3 Tablets 250 Pack",
+        "$9.80 per 100 each",
+        "Swisse Ultiboost Zinc+ Tablets",
+        "120 Pack $12.29 per 100 each",
+        "SAVE$14.75",
+        "$1475",
+        "WAS $29.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 24.75,
+      "texts": [
+        "Swisse Ultiboost Magnesium +",
+        "Sleep Tablets 100 Pack",
+        "$24.75 per 100 each",
+        "SAVE$24.75",
+        "$2475",
+        "WAS $49.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 12.38,
+      "texts": [
+        "40 Pack-50 Pack",
+        "Swisse Ultiboost Odourless",
+        "Little Swisse Gummies",
+        "High Strength Wild Fish Oil",
+        "$12.38 per 100 each",
+        "Capsules 200 Pack",
+        "SAVE$24.75",
+        "$2475",
+        "WAS $29.50",
+        "WAS $49.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 12.83,
+      "texts": [
+        "Nature's Own Vitamin B12",
+        "1000mcg Tablets 150 Pack",
+        "$12.83 per 100 each",
+        "SAVE$19.25",
+        "$1925",
+        "WAS $38.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 14.75,
+      "texts": [
+        "40 Pack-50 Pack",
+        "Little Swisse Gummies",
+        "SAVE$14.75",
+        "$2475",
+        "$1475",
+        "WAS $29.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_4.png",
+      "week": "2026-W11"
+    }
+  ]
+}

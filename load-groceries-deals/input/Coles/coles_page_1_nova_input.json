@@ -1,0 +1,72 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 5.5,
+      "texts": [
+        "Pizza 370g-460g",
+        "McCain Rustica",
+        "$550",
+        "SAVE$5.50",
+        "WAS$11",
+        "ea",
+        "RUSTICA"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_1.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.3,
+      "texts": [
+        "La Espa\u00f1ola Olive Oil 1 Litre",
+        "$1.30 per 100mL. Excludes Organic and Hojiblanca.",
+        "cookware",
+        "*See page 33 for T&Cs",
+        "credit*",
+        "Bonus",
+        "$13",
+        "SAVE$13",
+        "WAS$26",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_1.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "Scotch Fillet Steak 2 Pack 480g $41.67 per kg",
+        "Coles Australian No Added Hormones Beef",
+        "SAVE$2.50",
+        "$20",
+        "WAS $22.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_1.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 20.0,
+      "texts": [
+        "$20 in one transaction and scan your Flybuys"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_1.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.2,
+      "texts": [
+        "SAVE$2.20",
+        "$220",
+        "WAS$4.40",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_1.png",
+      "week": "2026-W11"
+    }
+  ]
+}

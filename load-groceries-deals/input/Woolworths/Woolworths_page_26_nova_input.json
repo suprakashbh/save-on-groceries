@@ -1,0 +1,117 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 4.3,
+      "texts": [
+        "Australian Fresh",
+        "RSPCA Approved",
+        "$430",
+        "Chicken Drumsticks",
+        "SAVE",
+        "kg",
+        "kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 18.75,
+      "texts": [
+        "with RSPCA Approved",
+        "Garlic Tenderloins 400g",
+        "Woolworths Roasted",
+        "Chicken",
+        "Slow Cooked Pork Ribs",
+        "Woolworths COOK",
+        "$12",
+        "$2.50",
+        "SAVE",
+        "$18.75 per kg",
+        "$18.46 per kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 18.46,
+      "texts": [
+        "WC040326/NSW26/R",
+        "Chicken",
+        "Slow Cooked Pork Ribs",
+        "Woolworths COOK",
+        "with Smokey BBQ Sauce",
+        "650g",
+        "$12",
+        "$2.50",
+        "SAVE",
+        "$18.46 per kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 38.0,
+      "texts": [
+        "Steak Bulk Pack",
+        "Australian Beef Scotch Fillet",
+        "$38",
+        "RSPCA Approved Chicken",
+        "WHILE",
+        "STOCKS",
+        "LAST"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 16.0,
+      "texts": [
+        "Steak Bulk Pack",
+        "Australian Lamb",
+        "$16",
+        "Leg Roast",
+        "$2 kg",
+        "SAVE",
+        "Pack",
+        "Bulk",
+        "kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 18.0,
+      "texts": [
+        "$18",
+        "$2",
+        "SAVE",
+        "kg",
+        "kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_26.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "Australian Fresh Whole Plain",
+        "RSPCA Approved Chicken",
+        "$4",
+        "$1.50",
+        "SAVE",
+        "kg",
+        "kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_26.png",
+      "week": "2026-W11"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 5.33,
+      "texts": [
+        "Chips 750g",
+        "McCain Air Fryer",
+        "$4",
+        "SAVE",
+        "$1.50",
+        "$5.33 per kg",
+        "THE HOTTEST THING SINCE THE AIR FRYER",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_35.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.5,
+      "texts": [
+        "NEW!",
+        "FAMILY",
+        "$450",
+        "Sauce 250g",
+        "Mingle Better",
+        "$1.80 per 100g",
+        "$1.45",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_35.png",
+      "week": "2026-W11"
+    }
+  ]
+}

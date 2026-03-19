@@ -1,0 +1,128 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "Family Faves Chicken Tenders",
+        "Beef Pies 2 Pack 400g-420g",
+        "1kg $10.00 per kg",
+        "*See page 33 for T&Cs",
+        "SAVE$2.50",
+        "$10",
+        "WAS$12.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.1,
+      "texts": [
+        "Herbert Adams Slow Cooked",
+        "Beef Pies 2 Pack 400g-420g",
+        "*See page 33 for T&Cs",
+        "SAVE$3.10",
+        "WAS$10"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.83,
+      "texts": [
+        "King of Kings Gua Bao Buns",
+        "14 Pieces 560g $0.83 per 100g",
+        "SAVE$4.65",
+        "WAS$9.30",
+        "65",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.95,
+      "texts": [
+        "including",
+        "Rapid Delivery",
+        "Fropro Protein Pizza 325g",
+        "$3.08 per 100g",
+        "over $50",
+        "SAVE$2.95",
+        "WAS$12.95"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.99,
+      "texts": [
+        "4 Pack 700g $0.99 per 100g",
+        "Four'N Twenty Traditional Pies",
+        "$690",
+        "SAVE$2.60",
+        "WAS$9.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.1,
+      "texts": [
+        "$770",
+        "SAVE$2.10",
+        "WAS $9.80",
+        "SLICES",
+        "McCain",
+        "PIZZA",
+        "MEATLOVERS"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 15.0,
+      "texts": [
+        "SAVE $2.40",
+        "$15",
+        "3 for",
+        "Kitchen",
+        "KYIV",
+        "MINI CHICKEN"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 19.0,
+      "texts": [
+        "$19/mth fee, exclusions and T&Cs apply.",
+        "coles"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_14.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.0,
+      "texts": [
+        "SAVE$6.60",
+        "$6",
+        "WAS$12.60",
+        "FISH",
+        "50%",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_14.png",
+      "week": "2026-W11"
+    }
+  ]
+}

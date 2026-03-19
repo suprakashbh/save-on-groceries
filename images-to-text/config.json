@@ -1,0 +1,12 @@
+{
+  "source_prefixes": ["coles", "woolworths"],
+  "aws_region": "us-east-1",
+  "aws_profile": null,
+  "source_bucket": "supra-weekly-deals",
+  "source_url_base": "https://supra-weekly-deals.s3.ap-southeast-2.amazonaws.com/",
+  "output_bucket": "supra-textract-output",
+  "output_prefix": "temporary",
+  "pretty_print": true,
+  "max_workers": 8,
+  "recursive": true
+}

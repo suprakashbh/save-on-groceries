@@ -1,0 +1,103 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "Table of Plenty",
+        "Sweet Topped Mini",
+        "DOWN DOWN",
+        "$4",
+        "JAN 2026",
+        "WAS $5"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.25,
+      "texts": [
+        "Sunbites Grain Waves 170g",
+        "Smith's Thinly Cut Potato Chips",
+        "$2.21 per 100g",
+        "175g $1.71 per 100g",
+        "SAVE$1.25",
+        "$375",
+        "WAS$5"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "Smith's Thinly Cut Potato Chips",
+        "175g $1.71 per 100g",
+        "EVERY DAY",
+        "$3"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 14.67,
+      "texts": [
+        "65%",
+        "Not available for Deliver More delivery timeslots",
+        "Coles Mixed Nuts 375g",
+        "$14.67 per kg",
+        "or Cheezels 6 Pack",
+        "Kettle Potato Chips 5 Pack",
+        "SAVE $2",
+        "Any 2 for",
+        "$7"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 13.4,
+      "texts": [
+        "PACKS",
+        "INSIDE",
+        "24x600mL* $0.83 per litre",
+        "Frantelle Spring Water",
+        "Bundaberg Brewed Ginger Beer",
+        "10x375mL $3.57 per litre",
+        "SAVE$4.55",
+        "$1340"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 12.0,
+      "texts": [
+        "NUTS",
+        "24x600mL* $0.83 per litre",
+        "Frantelle Spring Water",
+        "EVERY DAY",
+        "$12"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 17.95,
+      "texts": [
+        "WAS $17.95",
+        "10",
+        "PACK"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_12.png",
+      "week": "2026-W11"
+    }
+  ]
+}

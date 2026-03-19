@@ -1,0 +1,15 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 10.0,
+      "texts": [
+        "$10",
+        "Off"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_36.png",
+      "week": "2026-W11"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 1.0,
+      "texts": [
+        "Bars 5 Pack 100g-110g",
+        "Kellogg's LCMs or Nutri Grain",
+        "$350",
+        "WAS $4.50",
+        "SAVE $1",
+        "5 BARS",
+        "110g",
+        "ORIGINAL",
+        "BARS",
+        "GRAIN"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_25.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.17,
+      "texts": [
+        "Bega Smooth or Crunchy Peanut",
+        "Butter 470g $1.17 per 100g",
+        "SAVE$1.40",
+        "WAS$6.90"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_25.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 16.0,
+      "texts": [
+        "Vittoria Freeze Dried Instant Coffee 400g",
+        "$23",
+        "SAVE $16",
+        "WAS $39"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_25.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.75,
+      "texts": [
+        "Vittoria Freeze Dried Instant Coffee 400g",
+        "$5.75 per 100g",
+        "Kellogg's",
+        "GRAIN",
+        "$23",
+        "NUTRI",
+        "SAVE $16",
+        "WAS $39"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_25.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.5,
+      "texts": [
+        "Bars 120g",
+        "Uncle Tobys Muesli Bars",
+        "145g-185g or Nestl\u00e9 Nesquik",
+        "SAVE$1.50",
+        "$4",
+        "WAS $5.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_25.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.0,
+      "texts": [
+        "WAS $7",
+        "25"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_25.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.3,
+      "texts": [
+        "Butter 375g $1.33 per 100g",
+        "Mayver's Dark Roasted Peanut",
+        "SAVE$1.30",
+        "$5",
+        "WAS $6.30",
+        "ROASTED",
+        "CRUNCHY",
+        "DARK",
+        "ea",
+        "OR"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_25.png",
+      "week": "2026-W11"
+    }
+  ]
+}

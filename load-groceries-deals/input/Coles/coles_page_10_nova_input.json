@@ -1,0 +1,136 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 1.2,
+      "texts": [
+        "Kirks Soft Drink",
+        "1.25 Litre $1.44 per litre",
+        "SAVE $1.20",
+        "$180",
+        "KIRKS",
+        "WAS $3",
+        "ORIGINALS",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.4,
+      "texts": [
+        "Ocean Spray 1 Litre",
+        "$3.33 per litre",
+        "SAVE$1.40",
+        "Cranberry",
+        "$5",
+        "WAS $6.40",
+        "CLASSIC",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.4,
+      "texts": [
+        "Coca-Cola, Fanta or Sprite Soft Drink 12x300mL",
+        "SAVE $8.40",
+        "$1260",
+        "WAS $21"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.5,
+      "texts": [
+        "Coca-Cola, Fanta or Sprite Soft Drink 12x300mL",
+        "$3.50 per litre. 2nd week on sale",
+        "SAVE $8.40",
+        "$1260",
+        "WAS $21"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.9,
+      "texts": [
+        "$590",
+        "WAS $8.25",
+        "FEB 2026",
+        "APPLE",
+        "Sodaly"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "Peckish",
+        "WAS $2.50",
+        "CHEDDAR",
+        "85",
+        "ea",
+        "Sodaly"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.0,
+      "texts": [
+        "Arnott's Scotch Finger",
+        "Biscuits 250g",
+        "$1.00 per 100g",
+        "$250",
+        "SAVE 80\u00a2",
+        "WAS $3.30",
+        "Scotch Finger",
+        "Scotch Finger",
+        "ARNOTT'S",
+        "ARNOTT'S"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "Sodaly",
+        "6x250mL $4.00 per litre",
+        "Sparkling Water",
+        "Mt Franklin Lightly",
+        "$6",
+        "SAVE",
+        "WAS $10"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.8,
+      "texts": [
+        "4x250mL",
+        "V Energy Drink",
+        "$7.20 per litre",
+        "SAVE$4.80",
+        "$720",
+        "WAS$12"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_10.png",
+      "week": "2026-W11"
+    }
+  ]
+}

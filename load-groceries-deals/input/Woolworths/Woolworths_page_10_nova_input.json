@@ -1,0 +1,137 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 12.25,
+      "texts": [
+        "Vitamin C 1000mg",
+        "Pk 20-",
+        "Cenovis Mega",
+        "$925",
+        "$12.25",
+        "$9.25 per 100 ea",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 33.75,
+      "texts": [
+        "Voost Performance",
+        "Plus Effervescent",
+        "$13.50",
+        "SAVE",
+        "$13.50",
+        "$33.75 per 100 ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 27.5,
+      "texts": [
+        "Voost Magnesium",
+        "Pk 20-",
+        "Effervescent Tablets",
+        "SAVE",
+        "$5.50",
+        "$27.50 per 100 ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 16.5,
+      "texts": [
+        "Vitamin C 500mg",
+        "$13",
+        "Cenovis Sugarless",
+        "SAVE",
+        "$4.06 per 100 ea",
+        "$16.50",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 17.25,
+      "texts": [
+        "$1725",
+        "Garlic, Zinc + C Tablets",
+        "Cenovis Echinacea,",
+        "$13.80 per 100 ea",
+        "SAVE",
+        "$17.25",
+        "1/2 Price Vitamins+"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 21.5,
+      "texts": [
+        "Glucosamine Sulfate",
+        "$18",
+        "Nature's Own",
+        "SAVE",
+        "$21.50",
+        "$9 per 100 ea",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 37.08,
+      "texts": [
+        "Vitamin D3 + K2 Tablets",
+        "$2225",
+        "Ostelin Calcium &",
+        "$22.25",
+        "SAVE",
+        "$37.08 per 100 ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.0,
+      "texts": [
+        "Tablet Pk 10-",
+        "Voost Sport Effervescent",
+        "Pk 60-",
+        "$6",
+        "$6",
+        "SAVE",
+        "$60 per 100 ea",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_10.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 25.0,
+      "texts": [
+        "Odourless 1500mg",
+        "Nature's Own Fish Oil",
+        "$21.50",
+        "SAVE",
+        "$25",
+        "$10.75 per 100 ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_10.png",
+      "week": "2026-W11"
+    }
+  ]
+}

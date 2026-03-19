@@ -1,0 +1,71 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 5.25,
+      "texts": [
+        "^See page 5 for details.",
+        "Sachets Pk 8-10",
+        "Rexona Advanced",
+        "$525",
+        "Nescaf\u00e9 Coffee",
+        "$2.39 per 100ml",
+        "SAVE",
+        "$5.25",
+        "SAVE",
+        "$4"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "Sachets Pk 8-10",
+        "Nescaf\u00e9 Coffee",
+        "$4",
+        "SAVE",
+        "$4"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.75,
+      "texts": [
+        "get a",
+        "Uncle Tobys Plus",
+        "Cereal 620-705g",
+        "$475",
+        "SAVE",
+        "$4.75",
+        "Seedless Grapes"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_2.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 11.0,
+      "texts": [
+        "Pack^",
+        "get a",
+        "MEN",
+        "Huggles Ultra Dry",
+        "Uncle Tobys Plus",
+        "Cereal 620-705g",
+        "Napples Pk 30-54",
+        "$11",
+        "SAVE",
+        "SAVE",
+        "$11",
+        "$4.75"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_2.png",
+      "week": "2026-W11"
+    }
+  ]
+}

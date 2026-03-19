@@ -1,0 +1,118 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 10.0,
+      "texts": [
+        "700g-720g",
+        "Lotus Biscoff Spread",
+        "DOWN DOWN",
+        "$10",
+        "JAN 2026",
+        "WAS $12"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_29.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.6,
+      "texts": [
+        "490g-500g",
+        "Leggo's Pasta Sauce",
+        "DOWN DOWN",
+        "WAS $4.60",
+        "MAR 2026",
+        "CHUNKY TOMATO",
+        "BOLOGNESE",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_29.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "Green's Traditional Baking Mix",
+        "350g-470g *See page 33 for T&Cs",
+        "DOWN DOWN",
+        "WAS $3.80",
+        "$3",
+        "JAN 2026"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_29.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 10.8,
+      "texts": [
+        "495g-1.04kg",
+        "Old El Paso Family Kit",
+        "*See page 33 for T&Cs",
+        "DOWN DOWN",
+        "$1080",
+        "FEB 2026",
+        "WAS $12",
+        "HARD Taco Kit 'N SOFT SIZE"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_29.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.44,
+      "texts": [
+        "Snacks 160g $2.44 per 100g",
+        "Iddy Biddy Fruit Flavoured",
+        "DOWN DOWN",
+        "65",
+        "WAS $4.40",
+        "FEB 2026"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_29.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.5,
+      "texts": [
+        "San Remo Rigati Penne Pasta 500g",
+        "$0.50 per 100g",
+        "DOWN DOWN",
+        "$250",
+        "WAS $2.95",
+        "MAR 2026"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_29.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "WAS $4.50",
+        "$4",
+        "DEC 2025",
+        "ea",
+        "Gluten ORIGINAL free"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_29.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 14.0,
+      "texts": [
+        "$14",
+        "MAR 2026",
+        "WAS $15",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_29.png",
+      "week": "2026-W11"
+    }
+  ]
+}

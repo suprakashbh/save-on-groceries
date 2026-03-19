@@ -1,0 +1,58 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "Australian Brown Onions",
+        "1 kg Pack",
+        "$250",
+        "$2.50 per kg",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 13.0,
+      "texts": [
+        "Special",
+        "Tomatoes 300g Pack",
+        "Australian Kumato",
+        "$390",
+        "$13 per kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "Australian Washed",
+        "White Potatoes 2 kg Pack",
+        "$6",
+        "$3 per kg",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.0,
+      "texts": [
+        "Special",
+        "Woolworths COOK Australian",
+        "- From the Meat Dept",
+        "Roasting Portions Italian Style",
+        "RSPCA Approved Chicken",
+        "$8"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_27.png",
+      "week": "2026-W11"
+    }
+  ]
+}

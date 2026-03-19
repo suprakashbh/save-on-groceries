@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signing in…</title>
+  </head>
+  <body>
+    <script>
+      const query = window.location.search || "";
+      window.location.replace(`/callback${query}`);
+    </script>
+  </body>
+</html>

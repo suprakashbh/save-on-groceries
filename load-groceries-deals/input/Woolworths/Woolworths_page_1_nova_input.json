@@ -1,0 +1,68 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 4.0,
+      "texts": [
+        "CC's Corn Chips 175g",
+        "Creations or Bubbly Chocolate",
+        "Cadbury Dairy Milk, Marvellous",
+        "Blocks 150-190g",
+        "$250",
+        "$1.43 per 100g",
+        "SAVE $2.50",
+        "SAVE $4"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_1.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 15.0,
+      "texts": [
+        "$15",
+        "SAVE $3",
+        "ANY 2 FOR"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_1.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.0,
+      "texts": [
+        "Tasty Cheese",
+        "MARVELLOUS",
+        "DAIRY",
+        "CREATIONS",
+        "Cadbury",
+        "MILK",
+        "472-750ml Pk 8-14",
+        "Ice Cream Multipacks",
+        "Bulla Everyday or Variety",
+        "DAIRY",
+        "$5"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_1.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 10.5,
+      "texts": [
+        "Sprite or Fanta",
+        "Coca-Cola,",
+        "Soft Drink",
+        "$10.50",
+        "$2.80 per litre",
+        "SAVE $10.50",
+        "Vitamins+",
+        "1/2",
+        "Price"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_1.png",
+      "week": "2026-W11"
+    }
+  ]
+}

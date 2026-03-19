@@ -1,0 +1,83 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 5.5,
+      "texts": [
+        "Zero Sugar Soft Drink Varieties",
+        "Solo Zero Sugar or Sunkist",
+        "Pepsi Max, Mountain Dew,",
+        "24 X 375ml",
+        "$550",
+        "SAVE",
+        "$2.63 per litre",
+        "$5.50"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.3,
+      "texts": [
+        "$330",
+        "SAVE",
+        "$2.20"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 15.8,
+      "texts": [
+        "Zero Sugar Soft Drink Varieties",
+        "Solo Zero Sugar or Sunkist",
+        "Pepsi Max, Mountain Dew,",
+        "24 X 375ml",
+        "SAVE",
+        "$2.63 per litre",
+        "$15.80"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 22.4,
+      "texts": [
+        "250mL",
+        "CANS",
+        "Grinders Cafe Q Coffee",
+        "$2240",
+        "- From the Health",
+        "58g or 69g Pk 6",
+        "Food Aisle",
+        "$4.48 per 100g",
+        "$9.60",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_12.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.75,
+      "texts": [
+        "PEPSI",
+        "Tasti Smooshed Balls",
+        "$175",
+        "- From the Health",
+        "58g or 69g Pk 6",
+        "SAVE",
+        "$1.75",
+        "SUGAR",
+        "ZERO",
+        "24"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_12.png",
+      "week": "2026-W11"
+    }
+  ]
+}

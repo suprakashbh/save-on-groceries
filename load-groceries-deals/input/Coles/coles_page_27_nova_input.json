@@ -1,0 +1,113 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 1.4,
+      "texts": [
+        "Almond Milk 1 Litre $2.00 per litre",
+        "Pureharvest Unsweetened",
+        "SAVE$1.40",
+        "$2",
+        "WAS $3.40",
+        "Almond",
+        "Organic",
+        "Unsweetened",
+        "HARVEST",
+        "PURE",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.5,
+      "texts": [
+        "410g-435g",
+        "Uncle Tobys Plus Cereal",
+        "SAVE$1.50",
+        "$550",
+        "WAS $7",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 11.0,
+      "texts": [
+        "$11",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.1,
+      "texts": [
+        "5",
+        "Vitasoy Unsweetened Oat Milk",
+        "1 Litre $2.20 per litre",
+        "SAVE$1.10",
+        "$220",
+        "WAS $3.30"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.5,
+      "texts": [
+        "or LCMs Cereal 295g",
+        "Kellogg's Coco Pops 320g",
+        "SAVE$1.50",
+        "$550"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.0,
+      "texts": [
+        "WAS $7",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.55,
+      "texts": [
+        "Vittoria Nespresso Compatible",
+        "Coffee Capsules 10 Pack",
+        "$0.55 per each",
+        "$550",
+        "WAS $9.50",
+        "SAVE $4"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_27.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.1,
+      "texts": [
+        "Specialty Blend",
+        "Moccona Freeze Dried Instant",
+        "2nd week on sale. Excludes",
+        "Coffee 200g $8.25 per 100g.",
+        "SAVE$7.10",
+        "WAS $23.60",
+        "MOCCONA"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_27.png",
+      "week": "2026-W11"
+    }
+  ]
+}

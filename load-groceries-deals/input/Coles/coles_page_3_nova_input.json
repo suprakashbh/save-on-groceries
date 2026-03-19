@@ -1,0 +1,153 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 6.75,
+      "texts": [
+        "Twinings Tea Bags",
+        "80 Pack-100 Pack",
+        "$675",
+        "SAVE$6.75",
+        "WAS$13.50",
+        "TWININGS",
+        "Breakfast",
+        "English",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.2,
+      "texts": [
+        "Suimin Noodle Cup 70g",
+        "$1.71 per 100g",
+        "SAVE$1.20",
+        "SPICE",
+        "TAILOR",
+        "300g",
+        "ORIENT",
+        "TASTE",
+        "WAS$2.40",
+        "the",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.35,
+      "texts": [
+        "The Spice Tailor Asian or",
+        "Indian Kit 225g-400g",
+        "SAVE$3.35",
+        "butter chicken",
+        "classic",
+        "WAS $6.70",
+        "TWININGS",
+        "35",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.25,
+      "texts": [
+        "Smith's Crackers 160g",
+        "$1.25 per 100g",
+        "$2",
+        "SAVE$2",
+        "SMITH'S",
+        "WAS$4",
+        "CRACKER",
+        "Vinegar",
+        "Salt",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 9.5,
+      "texts": [
+        "Sunrice Medium Grain Rice",
+        "5kg $0.19 per 100g.",
+        "*See page 33 for T&Cs",
+        "SAVE$9.50",
+        "$",
+        "WAS$19",
+        "MEDIUM GRAIN",
+        "CALROSE RICE",
+        "ea",
+        "50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.5,
+      "texts": [
+        "White Wings Baking Mix",
+        "365g-485g",
+        "SAVE$3.50",
+        "WAS $7",
+        "50",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.49,
+      "texts": [
+        "Kellogg's K-Time Baked Twists",
+        "185g $1.49 per 100g",
+        "SAVE$2.75",
+        "$275",
+        "WAS$5.50",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 15.0,
+      "texts": [
+        "Gold Sunset Vegetable",
+        "$0.38 per 100mL",
+        "or Canola Oil 4 Litre",
+        "$15",
+        "SAVE $15",
+        "WAS$30",
+        "Gold Sunset",
+        "CANOLA"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.95,
+      "texts": [
+        "Coffee Sachets 10 Pack",
+        "$0.40 per each",
+        "Moccona Caf\u00e9 Classics",
+        "SAVE$3.95",
+        "WAS$7.90",
+        "95",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_3.png",
+      "week": "2026-W11"
+    }
+  ]
+}

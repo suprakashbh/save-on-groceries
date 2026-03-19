@@ -1,0 +1,156 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 4.75,
+      "texts": [
+        "Vanish Oxi Action Gold",
+        "450mL $10.56 per litre",
+        "Fabric Stain Remover Spray",
+        "$475",
+        "SAVE$4.75",
+        "WAS $9.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.5,
+      "texts": [
+        "Two Pack 100g $5.50 per 100g.",
+        "Bref In The Bowl Toilet Cleaner",
+        "*See page 33 for T&Cs",
+        "SAVE$5.50",
+        "$550",
+        "WAS$11",
+        "ACTIVE+",
+        "BLUE",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.25,
+      "texts": [
+        "NSW-METRO-0403-26-630050",
+        "Liquid 2 Litre $7.25 per litre",
+        "Dynamo Professional Laundry",
+        "SAVE$14.50",
+        "DEEP CLEAN",
+        "OD",
+        "WAS $29"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 16.0,
+      "texts": [
+        "45 Pack $0.36 per each",
+        "Radiant Laundry Capsules",
+        "$16",
+        "SAVE $16",
+        "WAS$32",
+        "guard",
+        "Radiant",
+        "VALUE PACK*",
+        "ea",
+        "ACTIVE CLEAN"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.0,
+      "texts": [
+        "850mL $9.41 per litre",
+        "Cuddly Refresh Fabric Rinse",
+        "$8",
+        "SAVE",
+        "WAS$16",
+        "Cuddly",
+        "REFRESH",
+        "ALL FABRICS",
+        "$8",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.56,
+      "texts": [
+        "Liquid 900mL $0.56 per 100mL",
+        "Morning Fresh Dishwashing",
+        "$5",
+        "SAVE",
+        "WAS$10",
+        "MORNING",
+        "FRESH",
+        "$5",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.0,
+      "texts": [
+        "Wipes 110 Pack",
+        "Pine o Cleen Disinfectant",
+        "$0.05 per each",
+        "$6",
+        "SAVE $6",
+        "WAS$12",
+        "LARGE 110 PACK",
+        "KILLS",
+        "DISINFECTANT",
+        "CLEEN",
+        "PINEO",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 18.0,
+      "texts": [
+        "2 Litre or Powder 2kg",
+        "Omo Ultimate Laundry Liquid",
+        "On sale for 2 weeks",
+        "$18",
+        "ATTACKS ULTRA TOUGH STAINS",
+        "ULTIMATE",
+        "SAVE$18",
+        "WAS$36",
+        "NP"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_7.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.0,
+      "texts": [
+        "2 Litre $5.00 per litre",
+        "Earthwise Laundry Liquid",
+        "SAVE $10",
+        "WAS $20",
+        "ea",
+        "PLANT POWERED",
+        "earthwise"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_7.png",
+      "week": "2026-W11"
+    }
+  ]
+}

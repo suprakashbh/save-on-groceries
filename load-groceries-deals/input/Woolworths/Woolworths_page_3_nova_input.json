@@ -1,0 +1,81 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 2.75,
+      "texts": [
+        "All Sorts 220-280g",
+        "Twists, Batch 37 or",
+        "Darrell Lea Liquorice",
+        "$275",
+        "SAVE",
+        "$2.75",
+        "20"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "130-230g, Sour Patch Kids 190g or",
+        "The Natural Confectionery Co.",
+        "Pascall Sugar Bags 160-300g",
+        "$250",
+        "SAVE",
+        "$2.50",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.75,
+      "texts": [
+        "All Sorts 220-280g",
+        "Twists, Batch 37 or",
+        "Ritz Crackers",
+        "227g",
+        "Darrell Lea Liquorice",
+        "$175",
+        "77\u00a2 per 100g",
+        "SAVE",
+        "$1.75"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.43,
+      "texts": [
+        "Smiths Crinkle, Doritos or",
+        "Red Rock Chips 50-60g",
+        "The Natural Chip Co.",
+        "Potato Chips 175g",
+        "$135",
+        "$1.35",
+        "SAVE",
+        "$1.43 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_3.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.35,
+      "texts": [
+        "Smiths Crinkle, Doritos or",
+        "Red Rock Chips 50-60g",
+        "$135",
+        "$1.35",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_3.png",
+      "week": "2026-W11"
+    }
+  ]
+}

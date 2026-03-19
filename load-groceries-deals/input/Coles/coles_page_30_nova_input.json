@@ -1,0 +1,124 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 1.8,
+      "texts": [
+        "400g $4.50 per kg",
+        "Mutti Polpa Tomatoes",
+        "$180",
+        "FINELY",
+        "POLPA",
+        "TOMATOES",
+        "WAS $2.30",
+        "CHOPPED",
+        "PARMA",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_30.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.0,
+      "texts": [
+        "NSW-METRO-0403-26-630050",
+        "or Mayonnaise 500mL",
+        "$1.00 per 100mL",
+        "Heinz Seriously Good Aioli",
+        "$5",
+        "SAVE$2",
+        "WAS$7",
+        "AIOLI",
+        "GARLIC",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_30.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.38,
+      "texts": [
+        "Coles Beans 420g",
+        "$2.38 per kg",
+        "$1",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_30.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.7,
+      "texts": [
+        "Gravox Liquid Gravy or",
+        "Finishing Sauce 165g",
+        "$1.70 per 100g",
+        "Roast Chicke",
+        "$280",
+        "WAS $3.50",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_30.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.61,
+      "texts": [
+        "Spaghetti 3x300g",
+        "$0.61 per 100g",
+        "Heinz Baked Beanz or",
+        "SAVE$1.50",
+        "WAS$7",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_30.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.0,
+      "texts": [
+        "$11",
+        "SAVE$2",
+        "WAS $13",
+        "Cobram",
+        "VIRGIN",
+        "EXTRA"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_30.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 45.0,
+      "texts": [
+        "Cobram",
+        "VIRGIN",
+        "EXTRA",
+        "AUSTRALIAN",
+        "OLIVE OIL",
+        "CLASSIC",
+        "Moro Olive Oil 4 Litre",
+        "$1.13 per 100mL",
+        "$45"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_30.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 15.79,
+      "texts": [
+        "Coles Salmon 95g",
+        "$150",
+        "$15.79 per kg"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_30.png",
+      "week": "2026-W11"
+    }
+  ]
+}

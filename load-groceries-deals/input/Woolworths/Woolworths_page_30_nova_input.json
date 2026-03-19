@@ -1,0 +1,21 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 8.75,
+      "texts": [
+        "Virgin Olive Oil Medi...",
+        "Macro Organic Extra",
+        "$1.75 per 100ml",
+        "Aisle 6",
+        "In Stock",
+        "$875",
+        "Lists",
+        "Aisle 6"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_30.png",
+      "week": "2026-W11"
+    }
+  ]
+}

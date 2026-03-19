@@ -1,0 +1,92 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 17.5,
+      "texts": [
+        "Vita Gummies B12",
+        "Pk 100-",
+        "Nature's Way Adult",
+        "$14",
+        "$14",
+        "SAVE",
+        "$17.50 per 100 ea",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 14.0,
+      "texts": [
+        "Vita Gummies",
+        "Nature's Way Adult",
+        "$14",
+        "$14",
+        "SAVE",
+        "$14 per 100 ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 22.5,
+      "texts": [
+        "Tablets Pk 180-",
+        "Magnesium+ Coated",
+        "Blackmores Super",
+        "$22.50",
+        "SAVE",
+        "$12.50 per 100 ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 25.5,
+      "texts": [
+        "Tablets Pk 150-",
+        "Blackmores",
+        "Bio C 1000",
+        "$16.33 per 100 ea",
+        "SAVE",
+        "$25.50"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 20.0,
+      "texts": [
+        "$20",
+        "Executive B",
+        "Magnesium Pk 80-",
+        "Blackmores",
+        "$16 per 100 ea",
+        "$20",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 30.0,
+      "texts": [
+        "$30",
+        "Fish Oil 1000",
+        "Blackmores",
+        "$30",
+        "$7.50 per 100 ea",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_9.png",
+      "week": "2026-W11"
+    }
+  ]
+}

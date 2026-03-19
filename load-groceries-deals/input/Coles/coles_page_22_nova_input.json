@@ -1,0 +1,107 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 1.33,
+      "texts": [
+        "Tip Top Thins 6 Pack 240g",
+        "$1.33 per 100g. 2nd week on sale",
+        "$320",
+        "WAS$3.90",
+        "Thins",
+        "SOFT",
+        "IPTOP",
+        "ORIGINAL"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_22.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "6 Pack $0.42 per each.",
+        "Selected stores only",
+        "Coles Bakery Cinnamon Donuts",
+        "$250",
+        "WAS $2.80",
+        "ea",
+        "DONUTS",
+        "CINNAMON"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_22.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.5,
+      "texts": [
+        "Sourdough Vienna or Pane di Casa",
+        "Coles Bakery Stone Baked by Laurent",
+        "$4.50 per each. Selected stores only",
+        "$450",
+        "WAS$5",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_22.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.0,
+      "texts": [
+        "Helga's Wraps 7 Pack 445g or",
+        "8 Pack 508g On sale for 2 weeks.",
+        "*See page 33 for T&Cs",
+        "WAS $5.50",
+        "SAVE$2",
+        "50",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_22.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.82,
+      "texts": [
+        "425g $0.82 per 100g",
+        "Golden Crumpet Squares 6 Pack",
+        "SAVE$1.50",
+        "WAS$5",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_22.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.0,
+      "texts": [
+        "Coles Bakery Tear & Share",
+        "$4.00 per each. Selected stores only",
+        "$4",
+        "SAVE$1",
+        "WAS$5"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_22.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.15,
+      "texts": [
+        "5 Pack 500g $1.15 per 100g",
+        "Coles Banana Bread Slices",
+        "DOWN DOWN",
+        "$575",
+        "WAS $6.15",
+        "JAN 2026",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_22.png",
+      "week": "2026-W11"
+    }
+  ]
+}

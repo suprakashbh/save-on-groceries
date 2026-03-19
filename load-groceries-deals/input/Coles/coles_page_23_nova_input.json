@@ -1,0 +1,117 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "Cadbury Easter Egg Bag",
+        "No rainchecks",
+        "110g-125g While stocks last.",
+        "$450",
+        "WAS$7.50",
+        "SAVE $3",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.5,
+      "texts": [
+        "Cadbury Sharepack 120g-180g",
+        "No rainchecks",
+        "110g-125g While stocks last.",
+        "SAVE$2.50",
+        "$5",
+        "WAS$7.50",
+        "Cadbury",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 14.0,
+      "texts": [
+        "Lindt Lindor Gift Box 232g-235g",
+        "$14",
+        "SAVE $14",
+        "WAS $28",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.63,
+      "texts": [
+        "Cadbury Roses 380g",
+        "$2.63 per 100g",
+        "$10",
+        "SAVE $10",
+        "WAS $20",
+        "Roses",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.33,
+      "texts": [
+        "Gift Box 269g $8.33 per 100g",
+        "Ferrero Collection 24 Pack",
+        "SAVE$9.60",
+        "$2240",
+        "WAS$32"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.0,
+      "texts": [
+        "M&M's, Maltesers or Pods",
+        "120g-180g",
+        "$5",
+        "SAVE$ $2",
+        "WAS$7"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.27,
+      "texts": [
+        "$4.27 per 100g",
+        "$16",
+        "FERRERO",
+        "SAVE $16",
+        "WAS$32"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.55,
+      "texts": [
+        "Cadbury",
+        "EDITION",
+        "$2.55 per 100g",
+        "$12",
+        "SAVE $12",
+        "WAS $24"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_23.png",
+      "week": "2026-W11"
+    }
+  ]
+}

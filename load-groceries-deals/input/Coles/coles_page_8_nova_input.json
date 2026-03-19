@@ -1,0 +1,146 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 3.33,
+      "texts": [
+        "Schweppes Mixers, Soft Drink",
+        "or Mineral Water 4x300mL",
+        "$3.33 per litre",
+        "Schweppes",
+        "$4",
+        "SAVE",
+        "SODA WATER",
+        "WAS$8",
+        "THE",
+        "ORIGINAL",
+        "$4"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.25,
+      "texts": [
+        "Bhuja Mix 140g-160g",
+        "BHUJA",
+        "SAVE$2.25",
+        "$225",
+        "WAS $4.50",
+        "ORIGINAL MIX",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.5,
+      "texts": [
+        "Oreo Creme Cookies",
+        "128g-131g",
+        "SAVE$1.50",
+        "$150",
+        "OREO",
+        "WAS$3",
+        "OREO"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.75,
+      "texts": [
+        "Cottee's Cordial 1 Litre",
+        "$2.75 per litre",
+        "SAVE$2.75",
+        "$275",
+        "WAS $5.50",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.4,
+      "texts": [
+        "Schweppes Sparkling Water",
+        "10x375mL $2.40 per litre",
+        "PRICE",
+        "1/2",
+        "BETTER",
+        "THAN",
+        "$9",
+        "SAVE$10",
+        "WAS$19",
+        "Schweppes",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.75,
+      "texts": [
+        "Cobs Popcorn 80g-120g",
+        "SAVE$1.75",
+        "SLL$",
+        "WAS $3.50",
+        "ea",
+        "98"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.5,
+      "texts": [
+        "Darrell Lea Block Chocolate",
+        "160g-170g",
+        "SAVE$3.50",
+        "$350",
+        "WAS $7",
+        "RASPBERRY",
+        "MILK CHOCOLATE"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.14,
+      "texts": [
+        "Cadbury Favourites 700g",
+        "2nd week on sale",
+        "$2.14 per 100g.",
+        "$15",
+        "SAVE$15",
+        "WAS$30",
+        "ULTIMATE"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.0,
+      "texts": [
+        "Arnott's Jatz or Clix Crackers",
+        "225g-250g",
+        "$2",
+        "SAVE$2",
+        "WAS$4",
+        "JATZ",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_8.png",
+      "week": "2026-W11"
+    }
+  ]
+}

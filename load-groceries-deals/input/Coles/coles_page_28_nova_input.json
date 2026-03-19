@@ -1,0 +1,16 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 8.5,
+      "texts": [
+        "$850",
+        "$5.67 per litre",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_28.png",
+      "week": "2026-W11"
+    }
+  ]
+}

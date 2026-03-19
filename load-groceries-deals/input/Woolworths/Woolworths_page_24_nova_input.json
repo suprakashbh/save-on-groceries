@@ -1,0 +1,48 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 5.0,
+      "texts": [
+        "Cadbury Dairy",
+        "$250",
+        "$5 per 100g",
+        "SAVE",
+        "$2.50",
+        "APPROVED"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_24.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.5,
+      "texts": [
+        "Cadbury",
+        "Easter Egg",
+        "Bags 110-125g",
+        "$450",
+        "$3",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_24.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.0,
+      "texts": [
+        "$7",
+        "$4.60",
+        "SAVE",
+        "ea",
+        "Hunting Easter Eggs 170g Pk 10",
+        "Cadbury Dairy Milk Hollow",
+        "$4.12 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_24.png",
+      "week": "2026-W11"
+    }
+  ]
+}

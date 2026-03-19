@@ -1,0 +1,94 @@
+openapi: 3.0.3
+info:
+  title: Grocery Deals Lookup
+  version: 1.0.0
+  description: Lookup grocery deals from OpenSearch by product keyword.
+servers:
+  - url: https://example.com
+paths:
+  /deals:
+    post:
+      summary: Get grocery deals by product
+      operationId: getDeals
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DealsRequest'
+            examples:
+              example:
+                value:
+                  product: tea
+      responses:
+        '200':
+          description: Deals found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DealsResponse'
+              examples:
+                example:
+                  value:
+                    statusCode: 200
+                    body:
+                      - provider: Woolworths
+                        price: 2.25
+                        product_text: Uncle Tobys Oats 500g
+                        source: Woolworths_page_4.png
+                        week: 2026-W11
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+components:
+  schemas:
+    DealsRequest:
+      type: object
+      required: [product]
+      properties:
+        product:
+          type: string
+          description: Product keyword to search
+          example: tea
+    Deal:
+      type: object
+      properties:
+        provider:
+          type: string
+        price:
+          type: number
+        texts:
+          type: array
+          items:
+            type: string
+        product_text:
+          type: string
+        source:
+          type: string
+        week:
+          type: string
+    DealsResponse:
+      type: object
+      properties:
+        statusCode:
+          type: integer
+          example: 200
+        body:
+          type: array
+          items:
+            $ref: '#/components/schemas/Deal'
+    ErrorResponse:
+      type: object
+      properties:
+        statusCode:
+          type: integer
+          example: 400
+        body:
+          type: object
+          properties:
+            error:
+              type: string
+              example: "'product' is required"

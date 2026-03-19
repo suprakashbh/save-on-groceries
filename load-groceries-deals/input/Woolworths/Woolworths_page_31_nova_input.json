@@ -1,0 +1,170 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 4.5,
+      "texts": [
+        "Tasmanian Heritage Brie",
+        "500g",
+        "Olive Grove Spread",
+        "or Camembert 200g",
+        "- From the Deli",
+        "$450",
+        "90\u00a2 per 100g",
+        "SAVE",
+        "$1.50"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.3,
+      "texts": [
+        "500g",
+        "Original Juice Co.",
+        "Olive Grove Spread",
+        "Black Label 1.5 Litre",
+        "$630",
+        "70\u00a2",
+        "$4.20 per litre",
+        "SAVE",
+        "Grove",
+        "Olive"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 29.5,
+      "texts": [
+        "Tasmanian Heritage Brie",
+        "or Camembert 200g",
+        "- From the Deli",
+        "$6.05",
+        "SAVE",
+        "$29.50 per kg"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.5,
+      "texts": [
+        "$850",
+        "Varieties 200g",
+        "South Cape Fetta",
+        "450g",
+        "$9.50",
+        "Cheese Varieties",
+        "Range was",
+        "Perfect Italiano",
+        "$18.89 per kg",
+        "24/2/26"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 25.75,
+      "texts": [
+        "Varieties 200g",
+        "500g",
+        "Flora Proactiv Spread",
+        "South Cape Fetta",
+        "$515",
+        "$25.75 per kg",
+        "SAVE",
+        "$1.35",
+        "Flora"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 6.9,
+      "texts": [
+        "TASMANIAN",
+        "Double Brie",
+        "500g",
+        "Flora Proactiv Spread",
+        "$690",
+        "$1.38 per 100g",
+        "SAVE",
+        "$3.10"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.5,
+      "texts": [
+        "ANY 2",
+        "Chris' Homestyle",
+        "Dips 200g",
+        "FOR",
+        "$1.88 per 100g",
+        "$2.50",
+        "SAVE",
+        "$750"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.63,
+      "texts": [
+        "200g",
+        "$695",
+        "750ml",
+        "Remedy Kombucha",
+        "1.5 Litre",
+        "Range was",
+        "$7.95",
+        "Grove Juice Varieties",
+        "$4.63 per litre",
+        "24/2/26"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.33,
+      "texts": [
+        "$320",
+        "Oak Flavoured Milk",
+        "600ml",
+        "SAVE",
+        "$1",
+        "$5.33 per litre",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 7.0,
+      "texts": [
+        "750ml",
+        "Oak Flavoured Milk",
+        "Remedy Kombucha",
+        "$525",
+        "600ml",
+        "$7 per litre",
+        "SAVE",
+        "$2.25"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_31.png",
+      "week": "2026-W11"
+    }
+  ]
+}

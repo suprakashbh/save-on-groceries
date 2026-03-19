@@ -1,0 +1,152 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 12.0,
+      "texts": [
+        "Balance Wrap",
+        "Mission Carb",
+        "$5",
+        "SAVE",
+        "$1.50",
+        "$1.74 per 100g",
+        "Woolworths Choc Chunk",
+        "Standard shelf price $12 pk",
+        "Cookie Pies Pk 4",
+        "$2.88 per ea",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.0,
+      "texts": [
+        "Varieties 288g",
+        "Pk 6",
+        "Balance Wrap",
+        "Mission Carb",
+        "$5",
+        "SAVE",
+        "$1.50",
+        "$1.74 per 100g",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.6,
+      "texts": [
+        "$360",
+        "Brioche Buns Pk 4",
+        "Bakery Du Jour",
+        "90\u00a2 per ea",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.9,
+      "texts": [
+        "Plant",
+        "$190",
+        "Thick Raisin Toast",
+        "Tip Top Caf\u00e9",
+        "600g",
+        "Sourdough Baguettes",
+        "Crusty Baguette Varieties#",
+        "- Excludes Rustic &"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 13.0,
+      "texts": [
+        "$13",
+        "Woolworths Passionfruit or",
+        "800g#",
+        "Lemon Curd Cheesecake",
+        "$1.63 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 5.5,
+      "texts": [
+        "Thick Raisin Toast",
+        "Tip Top Caf\u00e9",
+        "$550",
+        "92\u00a2 per 100g",
+        "$1.70",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 25.0,
+      "texts": [
+        "Bakery",
+        "Introductory price",
+        "$23",
+        "New",
+        "Woolworths White Chocolate",
+        "Standard shelf price $25 ea",
+        "Hazelnut Cheesecake 700g",
+        "$3.29 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 13.4,
+      "texts": [
+        "$13.40",
+        "Woolworths Mini Iced",
+        "Cupcakes Pk 24"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "$3",
+        "Butter Croissant Pk 10#",
+        "- Excludes Jumbo &",
+        "Brioche Roll Varieties",
+        "Bread Roll Varieties Pk 6#",
+        "50\u00a2 per ea",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 8.5,
+      "texts": [
+        "$850",
+        "Butter Croissant Pk 10#",
+        "$1",
+        "SAVE",
+        "pk"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_23.png",
+      "week": "2026-W11"
+    }
+  ]
+}

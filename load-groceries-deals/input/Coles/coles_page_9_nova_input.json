@@ -1,0 +1,111 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 2.2,
+      "texts": [
+        "Water 1 Litre $3.30 per litre",
+        "Cocobella Straight Up Coconut",
+        "SAVE$2.20",
+        "$230",
+        "WAS $5.50",
+        "ea",
+        "cocobella"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.48,
+      "texts": [
+        "$2.48 per litre",
+        "Kirks Soft Drink 10x375mL",
+        "We recognise their strength and pay our respect to Elders past, present and emerging.",
+        "Coles Group acknowledges the Traditional Custodians of Country throughout Australia.",
+        "Coles Group extends that respect to all Aboriginal and Torres Strait Islanders people,",
+        "and recognises their rich cultures and continuing connection to land and waters.",
+        "SAVE$6.20",
+        "WAS$15.50",
+        "30",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.0,
+      "texts": [
+        "90g-100g",
+        "Olina's Artisan Crackers",
+        "SAVE$2",
+        "WAS$5",
+        "Olinas",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.4,
+      "texts": [
+        "Red Rock Deli Potato Chips",
+        "150g-165g",
+        "SAVE$2.40",
+        "$260",
+        "WAS $6",
+        "SOUR CREAM",
+        "SWEET",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.95,
+      "texts": [
+        "Monster Energy Drink 4x500mL",
+        "$4.95 per litre",
+        "SAVE$6.60",
+        "WAS$16.50",
+        "ea",
+        "JUICE"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.93,
+      "texts": [
+        "Fanta or Sprite Soft Drink",
+        "18x375mL $2.93 per litre",
+        "SAVE$13.20",
+        "$1980",
+        "WAS$33",
+        "FANTA",
+        "Sprite"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_9.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.6,
+      "texts": [
+        "Vege Deli Crisps 100g",
+        "$3.90 per 100g",
+        "SAVE$2.60",
+        "WAS $6.50",
+        "FANTA",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_9.png",
+      "week": "2026-W11"
+    }
+  ]
+}

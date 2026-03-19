@@ -1,0 +1,122 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 3.0,
+      "texts": [
+        "Dove Advanced 72hr Roll On",
+        "Deodorant 50mL",
+        "$6.00 per 100mL",
+        "$3",
+        "SAVE$3",
+        "WAS $6"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_5.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.0,
+      "texts": [
+        "500mL $1.00 per 100mL",
+        "Beach Rd Naturals Hand Wash",
+        "$5",
+        "SAVE $5",
+        "WAS $10"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_5.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 1.32,
+      "texts": [
+        "4 Pack $1.32 per 100g",
+        "Dove Beauty Soap Bar 360g",
+        "SAVE$4.75",
+        "$",
+        "WAS $9.50",
+        "beauty cream bar",
+        "75",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_5.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 4.2,
+      "texts": [
+        "Tone Refresh Shampoo or",
+        "John Frieda Violet Crush",
+        "$4.20 per 100mL",
+        "Conditioner 250mL",
+        "SAVE$10.50",
+        "WAS$21",
+        "for blondes",
+        "Violet",
+        "crush"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_5.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.42,
+      "texts": [
+        "Lynx Deodorant Body Spray",
+        "165mL $2.42 per 100mL",
+        "$",
+        "SAVE$4",
+        "WAS$8",
+        "JOHN FRIEDA",
+        "ea"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_5.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 0.95,
+      "texts": [
+        "NEW LOOK",
+        "Dove Body Wash 1 Litre",
+        "$0.95 per 100mL",
+        "SAVE$9.50",
+        "WAS $19"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_5.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 3.25,
+      "texts": [
+        "2nd week on sale",
+        "$3.25 per 100mL.",
+        "or Conditioner 385mL",
+        "Ogx Extra Strength Shampoo",
+        "SAVE$12.50",
+        "$1250",
+        "WAS $25"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_5.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 2.3,
+      "texts": [
+        "Dove Advanced 72hr Aerosol",
+        "$2.30 per 100mL",
+        "Deodorant 250mL",
+        "SAVE$5.75",
+        "$575",
+        "WAS $11.50"
+      ],
+      "provider": "Coles",
+      "source": "coles_page_5.png",
+      "week": "2026-W11"
+    }
+  ]
+}

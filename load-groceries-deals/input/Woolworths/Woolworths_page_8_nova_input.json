@@ -1,0 +1,107 @@
+{
+  "page": 25,
+  "product_candidates": [
+    {
+      "anchor_price": 18.92,
+      "texts": [
+        "Centrum",
+        "For Women 50+",
+        "$1125",
+        "$18.92 per 100 ea",
+        "$11.25",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 16.5,
+      "texts": [
+        "Tablets Pk 60-",
+        "Glycinate Tablets",
+        "Magzorb Magnesium",
+        "$16.50",
+        "$16.50 per 100 ea",
+        "SAVE",
+        "$16.50"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 29.5,
+      "texts": [
+        "Vital All-In-One Daily",
+        "240g-",
+        "Powder Original",
+        "Health Supplement",
+        "SAVE",
+        "$29.50",
+        "$12.29 per 100g"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 13.5,
+      "texts": [
+        "Advance 50+",
+        "Centrum",
+        "$13.50",
+        "$11.25 per 100 ea",
+        "$13.50",
+        "SAVE",
+        "1/2 Price Vitamins+"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 17.5,
+      "texts": [
+        "Powder 240g-",
+        "Magzorb Magnesium",
+        "$7.29 per 100g",
+        "$17.50",
+        "SAVE"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 38.89,
+      "texts": [
+        "Broad Spectrum",
+        "$35",
+        "Life-Space",
+        "SAVE",
+        "$38.89 per 100 ea",
+        "$35",
+        "ea"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_8.png",
+      "week": "2026-W11"
+    },
+    {
+      "anchor_price": 19.95,
+      "texts": [
+        "1000IU Capsules For",
+        "Ostelin Vitamin D3",
+        "Pk 130-",
+        "Bone Health + Immunity",
+        "SAVE",
+        "$19.95 per 100 ea",
+        "$15.25"
+      ],
+      "provider": "Woolworths",
+      "source": "Woolworths_page_8.png",
+      "week": "2026-W11"
+    }
+  ]
+}
