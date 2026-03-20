@@ -10,6 +10,7 @@ cp .env.example .env
 ```
 
 Fill in `.env` with your Cognito Hosted UI domain and desired API request field.
+Do not commit `.env`; for deployed environments prefer leaving the redirect vars unset so the app uses `window.location.origin`.
 
 ## Run (local)
 ```bash
@@ -72,11 +73,9 @@ VITE_COGNITO_SCOPES=openid email profile
 VITE_API_BASE_URL=https://2xtv24ztwk.execute-api.us-east-1.amazonaws.com/poc/chat
 ```
 
-Optional explicit redirects:
+Optional explicit redirects for local testing only:
 
 ```bash
-VITE_COGNITO_REDIRECT_SIGNIN=https://<your-amplify-domain>/callback.html
-VITE_COGNITO_REDIRECT_SIGNOUT=https://<your-amplify-domain>/
 VITE_DEAL_SOURCE_BASE_URL=https://supra-weekly-deals.s3.ap-southeast-2.amazonaws.com
 ```
 
