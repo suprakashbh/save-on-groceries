@@ -1,16 +1,19 @@
 version: 1
-frontend:
-  phases:
-    preBuild:
-      commands:
-        - npm ci
-    build:
-      commands:
-        - npm run build
-  artifacts:
-    baseDirectory: dist
-    files:
-      - '**/*'
-  cache:
-    paths:
-      - node_modules/**/*
+applications:
+  - appRoot: grocery-deals-app
+    frontend:
+      phases:
+        preBuild:
+          commands:
+            - cd grocery-deals-app
+            - npm ci
+        build:
+          commands:
+            - npm run build
+      artifacts:
+        baseDirectory: grocery-deals-app/dist
+        files:
+          - '**/*'
+      cache:
+        paths:
+          - grocery-deals-app/node_modules/**/*
