@@ -10,6 +10,7 @@ export default function Callback() {
         await handleCallback(window.location.search);
         window.location.replace("/");
       } catch (err) {
+        console.error("[auth] callback-page:error", err);
         setError(err.message || String(err));
       }
     }

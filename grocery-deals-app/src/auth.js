@@ -77,11 +77,15 @@ export async function login() {
 }
 
 export async function handleCallback(search) {
+  console.info("[auth] handleCallback:start", { search });
+
   if (completedCallbackSearch === search && isAuthenticated()) {
+    console.info("[auth] handleCallback:already-completed");
     return;
   }
 
   if (pendingCallbackSearch === search && pendingCallbackPromise) {
+    console.info("[auth] handleCallback:reusing-pending-request");
     return pendingCallbackPromise;
   }
 
@@ -95,6 +99,13 @@ export async function handleCallback(search) {
     const codeVerifier = localStorage.getItem(STORAGE_KEYS.codeVerifier);
 
     if (!code || !state || !expectedState || state !== expectedState || !codeVerifier) {
+      console.error("[auth] handleCallback:invalid-state", {
+        hasCode: Boolean(code),
+        hasState: Boolean(state),
+        hasExpectedState: Boolean(expectedState),
+        stateMatches: state === expectedState,
+        hasCodeVerifier: Boolean(codeVerifier)
+      });
       throw new Error("Invalid OAuth callback state");
     }
 
@@ -116,6 +127,10 @@ export async function handleCallback(search) {
 
     if (!response.ok) {
       const text = await response.text();
+      console.error("[auth] handleCallback:token-exchange-failed", {
+        status: response.status,
+        body: text
+      });
       throw new Error(`Token exchange failed: ${response.status} ${text}`);
     }
 
@@ -129,6 +144,10 @@ export async function handleCallback(search) {
     localStorage.removeItem(STORAGE_KEYS.state);
     localStorage.removeItem(STORAGE_KEYS.codeVerifier);
     completedCallbackSearch = search;
+    console.info("[auth] handleCallback:success", {
+      hasIdToken: Boolean(tokens.id_token),
+      hasAccessToken: Boolean(tokens.access_token)
+    });
   })();
 
   try {
