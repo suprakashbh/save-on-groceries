@@ -5,15 +5,14 @@ applications:
       phases:
         preBuild:
           commands:
-            - cd grocery-deals-app
             - npm ci
         build:
           commands:
             - npm run build
       artifacts:
-        baseDirectory: grocery-deals-app/dist
+        baseDirectory: dist
         files:
           - '**/*'
       cache:
         paths:
-          - grocery-deals-app/node_modules/**/*
+          - node_modules/**/*
