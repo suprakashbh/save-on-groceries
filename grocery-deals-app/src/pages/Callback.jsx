@@ -1,10 +1,17 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { handleCallback } from "../auth";
 
 export default function Callback() {
   const [error, setError] = useState("");
+  const startedRef = useRef(false);
 
   useEffect(() => {
+    if (startedRef.current) {
+      return;
+    }
+
+    startedRef.current = true;
+
     async function run() {
       try {
         await handleCallback(window.location.search);
