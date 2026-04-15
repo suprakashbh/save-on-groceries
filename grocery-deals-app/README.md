@@ -33,6 +33,14 @@ The app POSTs JSON to `VITE_API_BASE_URL` with payload:
 { "message": "user message", "sessionId": "<uuid>" }
 ```
 
+For receipt analysis, the app calls:
+
+```text
+https://XXXXXXX/receipt-analyze
+```
+
+If the app runs in a browser, the receipt API must return the appropriate `Access-Control-Allow-Origin` and preflight headers.
+
 ## Deploy To AWS Amplify
 
 This app is a static Vite SPA. The repo includes [amplify.yml](/Users/suprakashbhowmik/IdeaProjects/groceries-savings/grocery-deals-app/amplify.yml) for Amplify Hosting builds:
@@ -67,16 +75,16 @@ In AWS Amplify Hosting:
 In **Hosting > Environment variables**, add:
 
 ```bash
-VITE_COGNITO_DOMAIN=us-east-1btj0kck5q.auth.us-east-1.amazoncognito.com
-VITE_COGNITO_CLIENT_ID=6vt01hrj1d8u7pln5j5dpf56rp
+VITE_COGNITO_DOMAIN=XXXXXX.us-east-1.amazoncognito.com
+VITE_COGNITO_CLIENT_ID=XXXXXXXX
 VITE_COGNITO_SCOPES=openid email profile
-VITE_API_BASE_URL=https://2xtv24ztwk.execute-api.us-east-1.amazonaws.com/poc/chat
+VITE_API_BASE_URL=https://XXXXXXX-api.us-east-1.amazonaws.com/poc/chat
 ```
 
 Optional explicit redirects for local testing only:
 
 ```bash
-VITE_DEAL_SOURCE_BASE_URL=https://supra-weekly-deals.s3.ap-southeast-2.amazonaws.com
+VITE_DEAL_SOURCE_BASE_URL=https://XXXXXXXXXap-southeast-2.amazonaws.com
 ```
 
 If you omit the Cognito redirect vars, the app defaults to:
@@ -89,14 +97,14 @@ If you omit the Cognito redirect vars, the app defaults to:
 After Amplify gives you a domain such as:
 
 ```text
-https://main.d123abcxyz.amplifyapp.com
+https://main.XXXXXX.amplifyapp.com
 ```
 
 add these URLs to your Cognito app client:
 
 ```text
-https://main.d123abcxyz.amplifyapp.com/callback.html
-https://main.d123abcxyz.amplifyapp.com/
+https://main.XXXXXX.amplifyapp.com/callback.html
+https://main.XXXXXX.amplifyapp.com/
 ```
 
 If you later attach a custom domain, add the same two paths for that custom domain too.
