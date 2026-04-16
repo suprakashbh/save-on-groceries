@@ -11,7 +11,7 @@ export default function Login() {
           with the deals agent.
         </p>
         <button className="primary" onClick={login}>
-          Sign in with Cognito
+          Login
         </button>
         <div className="hero-note">
           No registration here. Use your existing account.

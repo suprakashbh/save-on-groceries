@@ -594,6 +594,7 @@ function ReceiptItemsTable({ items, onChange, onAddRow, onDeleteRow, onSave, sav
 }
 
 export default function Chat() {
+  const [selectedFeature, setSelectedFeature] = useState("chat");
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -609,6 +610,11 @@ export default function Chat() {
   const [weeklyDealsProducts, setWeeklyDealsProducts] = useState([]);
   const [weeklyDealsWeek, setWeeklyDealsWeek] = useState("");
   const [sessionId] = useState(() => crypto.randomUUID());
+  const hasExpandedContent =
+    messages.length > 0 ||
+    (selectedFeature === "receipt" && (receiptExpanded || receiptItems.length > 0 || Boolean(receiptError))) ||
+    (selectedFeature === "weeklyDeals" &&
+      (weeklyDealsProducts.length > 0 || Boolean(weeklyDealsError) || weeklyDealsLoading));
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -782,71 +788,96 @@ export default function Chat() {
       <header className="topbar">
         <div>
           <div className="brand">Grocery Deals</div>
-          <div className="subtitle">Powered by Bedrock Agent</div>
         </div>
         <button className="ghost" onClick={logout}>
           Sign out
         </button>
       </header>
 
-      <div className="chat-window">
-        <section className="receipt-panel">
-          <button
-            className={`receipt-toggle ${receiptExpanded ? "expanded" : ""}`}
-            type="button"
-            onClick={() => setReceiptExpanded((prev) => !prev)}
-            aria-expanded={receiptExpanded}
-          >
-            <div className="receipt-copy">
-              <h2>Upload receipt</h2>
-              <p>Send a `.jpeg`, `.jpg`, or `.png` grocery receipt to extract line items.</p>
-            </div>
-            <span className="receipt-toggle-icon">{receiptExpanded ? "−" : "+"}</span>
-          </button>
-
-          {receiptExpanded ? (
-            <>
-              <form className="receipt-form" onSubmit={handleReceiptUpload}>
-                <label className="file-input">
-                  <span>Receipt image</span>
-                  <input type="file" accept="image/jpeg,image/png" onChange={handleReceiptFileChange} />
-                </label>
-                <button className="primary" type="submit" disabled={receiptLoading}>
-                  {receiptLoading ? "Uploading…" : "Analyze receipt"}
-                </button>
-              </form>
-
-              {receiptFile ? <p className="receipt-meta">Selected file: {receiptFile.name}</p> : null}
-              {receiptError ? <p className="error">{receiptError}</p> : null}
-              {saveMessage ? <p className="success">{saveMessage}</p> : null}
-              <ReceiptItemsTable
-                items={receiptItems}
-                onChange={handleReceiptItemChange}
-                onAddRow={handleAddReceiptRow}
-                onDeleteRow={handleDeleteReceiptRow}
-                onSave={handleSaveProducts}
-                saveLoading={saveLoading}
-              />
-            </>
-          ) : null}
-        </section>
-
-        <section className="receipt-panel">
-          <div className="receipt-results-header">
-            <div>
-              <h2>Generate weekly deals</h2>
-              <p>Load the latest weekly deals and compare providers in one table.</p>
-            </div>
-            <div className="receipt-actions">
-              <button className="primary" type="button" onClick={handleGenerateWeeklyDeals} disabled={weeklyDealsLoading}>
-                {weeklyDealsLoading ? "Generating…" : "Generate weekly deals"}
-              </button>
-            </div>
+      <div className={`chat-window ${hasExpandedContent ? "expanded" : "compact"}`}>
+        <div className="chat-window-header">
+          <div className="feature-copy">
+            <h2>Features</h2>
+            <p>Chat stays available by default. Pick another feature when needed.</p>
           </div>
+          <section className="feature-panel">
+            <label className="feature-select">
+              <span>Select a feature</span>
+              <select value={selectedFeature} onChange={(e) => setSelectedFeature(e.target.value)}>
+                <option value="chat">Chat</option>
+                <option value="receipt">Upload receipt</option>
+                <option value="weeklyDeals">Generate weekly deals</option>
+              </select>
+            </label>
+          </section>
+        </div>
 
-          {weeklyDealsError ? <p className="error">{weeklyDealsError}</p> : null}
-          <WeeklyDealsTable products={weeklyDealsProducts} week={weeklyDealsWeek} />
-        </section>
+        {selectedFeature === "receipt" ? (
+          <section className="receipt-panel">
+            <button
+              className={`receipt-toggle ${receiptExpanded ? "expanded" : ""}`}
+              type="button"
+              onClick={() => setReceiptExpanded((prev) => !prev)}
+              aria-expanded={receiptExpanded}
+            >
+              <div className="receipt-copy">
+                <h2>Upload receipt</h2>
+                <p>Send a `.jpeg`, `.jpg`, or `.png` grocery receipt to extract line items.</p>
+              </div>
+              <span className="receipt-toggle-icon">{receiptExpanded ? "−" : "+"}</span>
+            </button>
+
+            {receiptExpanded ? (
+              <>
+                <form className="receipt-form" onSubmit={handleReceiptUpload}>
+                  <label className="file-input">
+                    <span>Receipt image</span>
+                    <input type="file" accept="image/jpeg,image/png" onChange={handleReceiptFileChange} />
+                  </label>
+                  <button className="primary" type="submit" disabled={receiptLoading}>
+                    {receiptLoading ? "Uploading…" : "Analyze receipt"}
+                  </button>
+                </form>
+
+                {receiptFile ? <p className="receipt-meta">Selected file: {receiptFile.name}</p> : null}
+                {receiptError ? <p className="error">{receiptError}</p> : null}
+                {saveMessage ? <p className="success">{saveMessage}</p> : null}
+                <ReceiptItemsTable
+                  items={receiptItems}
+                  onChange={handleReceiptItemChange}
+                  onAddRow={handleAddReceiptRow}
+                  onDeleteRow={handleDeleteReceiptRow}
+                  onSave={handleSaveProducts}
+                  saveLoading={saveLoading}
+                />
+              </>
+            ) : null}
+          </section>
+        ) : null}
+
+        {selectedFeature === "weeklyDeals" ? (
+          <section className="receipt-panel">
+            <div className="receipt-results-header">
+              <div>
+                <h2>Generate weekly deals</h2>
+                <p>Load the latest weekly deals and compare providers in one table.</p>
+              </div>
+              <div className="receipt-actions">
+                <button
+                  className="primary"
+                  type="button"
+                  onClick={handleGenerateWeeklyDeals}
+                  disabled={weeklyDealsLoading}
+                >
+                  {weeklyDealsLoading ? "Generating…" : "Generate weekly deals"}
+                </button>
+              </div>
+            </div>
+
+            {weeklyDealsError ? <p className="error">{weeklyDealsError}</p> : null}
+            <WeeklyDealsTable products={weeklyDealsProducts} week={weeklyDealsWeek} />
+          </section>
+        ) : null}
 
         {messages.map((m, i) => (
           <div key={i} className={`bubble ${m.role}`}>

@@ -152,6 +152,62 @@ body {
   overflow-y: auto;
   display: grid;
   gap: 16px;
+  align-content: start;
+  transition:
+    min-height 0.2s ease,
+    max-height 0.2s ease;
+}
+
+.chat-window.compact {
+  min-height: 280px;
+  max-height: 360px;
+}
+
+.chat-window.expanded {
+  min-height: 460px;
+  max-height: none;
+}
+
+.chat-window-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.feature-panel {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.feature-copy h2 {
+  margin: 0 0 6px;
+  font-size: 1.2rem;
+}
+
+.feature-copy p {
+  margin: 0;
+  color: #5b677a;
+  max-width: 42ch;
+}
+
+.feature-select {
+  display: grid;
+  gap: 8px;
+  min-width: min(100%, 280px);
+  font-weight: 600;
+}
+
+.feature-select select {
+  width: 100%;
+  border: 1px solid var(--wp-border);
+  border-radius: 14px;
+  padding: 12px;
+  background: white;
+  font: inherit;
+  box-shadow: 0 10px 24px rgba(19, 32, 54, 0.08);
 }
 
 .receipt-panel {

@@ -2,19 +2,19 @@ import { getIdToken } from "./auth";
 
 const baseUrl =
   import.meta.env.VITE_API_BASE_URL ||
-  "https://XXXXXXX.execute-api.us-east-1.amazonaws.com/poc/chat";
+  "https://2xtv24ztwk.execute-api.us-east-1.amazonaws.com/poc/chat";
 
 const receiptAnalyzeUrl =
   import.meta.env.VITE_RECEIPT_ANALYZE_URL ||
-  "https://XXXXXXX.execute-api.us-east-1.amazonaws.com/poc/receipt-analyze";
+  "https://t0rzf9jht6.execute-api.us-east-1.amazonaws.com/poc/receipt-analyze";
 
 const userPreferencesUrl =
   import.meta.env.VITE_USER_PREFERENCES_URL ||
-  "https://XXXXXXX.execute-api.us-east-1.amazonaws.com/poc/user-preferences";
+  "https://t0rzf9jht6.execute-api.us-east-1.amazonaws.com/poc/user-preferences";
 
 const weeklyDealsUrl =
   import.meta.env.VITE_WEEKLY_DEALS_URL ||
-  "https://XXXXXXX.execute-api.us-east-1.amazonaws.com/poc/weekly-deals";
+  "https://2xtv24ztwk.execute-api.us-east-1.amazonaws.com/poc/weekly-deals";
 
 export async function fetchDeals(message, sessionId) {
   const token = getIdToken();
