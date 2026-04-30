@@ -1,9 +1,11 @@
-import { Fragment, useState } from "react";
-import { analyzeReceipt, fetchDeals, fetchWeeklyDeals, saveUserPreferences } from "../api";
+import { Fragment, useEffect, useMemo, useState } from "react";
+import { analyzeReceipt, fetchDeals, fetchHalfPriceDeals, fetchWeeklyDeals, saveUserPreferences } from "../api";
 import { getAccessToken, getIdToken, logout, parseJwtPayload } from "../auth";
 
 const sourceBaseUrl = import.meta.env.VITE_DEAL_SOURCE_BASE_URL || "";
 const weeklyDealProviders = ["coles", "woolworths"];
+const halfPriceProviders = ["all", "coles", "woolworths"];
+const halfPriceItemsPerPage = 6;
 
 function normalizeSourceValue(source) {
   return typeof source === "string" ? source.trim().replace(/^['"]|['"]$/g, "") : "";
@@ -182,6 +184,102 @@ function formatProviderName(provider) {
 
 function formatPrice(price) {
   return Number.isFinite(price) ? `$${price.toFixed(2)}` : "N/A";
+}
+
+function getCurrentIsoWeek() {
+  const now = new Date();
+  const date = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
+  const day = date.getUTCDay() || 7;
+
+  date.setUTCDate(date.getUTCDate() + 4 - day);
+
+  const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
+  const week = Math.ceil(((date - yearStart) / 86400000 + 1) / 7);
+
+  return `${date.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
+}
+
+function extractRepeatedDollarPrice(texts) {
+  if (!Array.isArray(texts) || texts.length === 0) {
+    return null;
+  }
+
+  const dollarCounts = new Map();
+
+  texts.forEach((text) => {
+    if (typeof text !== "string") {
+      return;
+    }
+
+    const matches = text.match(/\$\s*\d+(?:\.\d{1,2})?/g) || [];
+    matches.forEach((match) => {
+      const normalized = match.replace(/\s+/g, "");
+      dollarCounts.set(normalized, (dollarCounts.get(normalized) || 0) + 1);
+    });
+  });
+
+  for (const [price, count] of dollarCounts.entries()) {
+    if (count >= 2) {
+      return price;
+    }
+  }
+
+  return null;
+}
+
+function formatHalfPricePrice(texts, anchorPrice) {
+  const repeatedPrice = extractRepeatedDollarPrice(texts);
+  if (repeatedPrice) {
+    return repeatedPrice;
+  }
+
+  return Number.isFinite(anchorPrice) ? `$${anchorPrice.toFixed(2)}` : "N/A";
+}
+
+function normalizeHalfPriceDealsResponse(data) {
+  let payload = data;
+
+  if (payload && typeof payload === "object" && typeof payload.body === "string") {
+    payload = parseJsonSafely(payload.body) || payload;
+  }
+
+  if (!payload || typeof payload !== "object" || !Array.isArray(payload.items)) {
+    return null;
+  }
+
+  const items = payload.items
+    .map((item, index) => {
+      const anchorPrice = typeof item?.price === "number" ? item.price : Number(item?.price);
+      const texts = Array.isArray(item?.texts) ? item.texts : [];
+      const productText = typeof item?.product_text === "string" ? item.product_text.trim() : "";
+      const provider = typeof item?.provider === "string" ? item.provider.trim().toLowerCase() : "";
+      const week =
+        typeof item?.week === "string" ? item.week.trim() : typeof payload?.week === "string" ? payload.week.trim() : "";
+      const source = typeof item?.source === "string" ? item.source.trim() : "";
+
+      if (!productText && !provider && !week && !source && !Number.isFinite(anchorPrice)) {
+        return null;
+      }
+
+      return {
+        id: item?.deal_id || `${provider || "provider"}-${week || "week"}-${index}`,
+        week,
+        provider,
+        productText: productText || `Item ${index + 1}`,
+        displayPrice: formatHalfPricePrice(texts, anchorPrice),
+        source
+      };
+    })
+    .filter(Boolean);
+
+  return {
+    week:
+      typeof payload?.week === "string"
+        ? payload.week.trim()
+        : items.find((item) => item.week)?.week || "",
+    providers: Array.isArray(payload?.providers) ? payload.providers : [],
+    items
+  };
 }
 
 function toAssistantContent(data) {
@@ -390,6 +488,65 @@ function WeeklyDealsTable({ products, week }) {
           </tbody>
         </table>
       </div>
+    </section>
+  );
+}
+
+function HalfPriceDealsList({ items, search, onSearchChange, page, totalPages, onPrevPage, onNextPage }) {
+  return (
+    <section className="weekly-deals-panel">
+      <div className="receipt-results-header">
+        <div>
+          <h2>Half-price items</h2>
+          <p>Search within the returned `product_text` values and page through the filtered results.</p>
+        </div>
+        <label className="file-input half-price-search">
+          <span>Search product</span>
+          <input
+            type="search"
+            value={search}
+            onChange={(e) => onSearchChange(e.target.value)}
+            placeholder="Filter by product_text"
+          />
+        </label>
+      </div>
+
+      {items.length === 0 ? (
+        <p className="receipt-meta">No half-price items match the current filter.</p>
+      ) : (
+        <>
+          <div className="half-price-grid">
+            {items.map((item) => (
+              <article key={item.id} className="half-price-card">
+                <div className="half-price-card-header">
+                  <span className="half-price-provider">{item.provider || "N/A"}</span>
+                  <span className="weekly-deal-price">{item.displayPrice}</span>
+                </div>
+                <div className="half-price-product">{item.productText}</div>
+                <div className="half-price-meta">
+                  <span>Week: {item.week || "N/A"}</span>
+                </div>
+                <div className="half-price-meta">
+                  <span>Source: </span>
+                  {item.source ? <SourceLink source={item.source} /> : <span>N/A</span>}
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div className="pagination-controls">
+            <button className="ghost" type="button" onClick={onPrevPage} disabled={page <= 1}>
+              Previous
+            </button>
+            <span className="receipt-meta">
+              Page {page} of {totalPages}
+            </span>
+            <button className="ghost" type="button" onClick={onNextPage} disabled={page >= totalPages}>
+              Next
+            </button>
+          </div>
+        </>
+      )}
     </section>
   );
 }
@@ -609,12 +766,47 @@ export default function Chat() {
   const [weeklyDealsError, setWeeklyDealsError] = useState("");
   const [weeklyDealsProducts, setWeeklyDealsProducts] = useState([]);
   const [weeklyDealsWeek, setWeeklyDealsWeek] = useState("");
+  const [halfPriceProvider, setHalfPriceProvider] = useState("all");
+  const [halfPriceLoading, setHalfPriceLoading] = useState(false);
+  const [halfPriceError, setHalfPriceError] = useState("");
+  const [halfPriceWeek, setHalfPriceWeek] = useState("");
+  const [halfPriceItems, setHalfPriceItems] = useState([]);
+  const [halfPriceSearch, setHalfPriceSearch] = useState("");
+  const [halfPricePage, setHalfPricePage] = useState(1);
   const [sessionId] = useState(() => crypto.randomUUID());
   const hasExpandedContent =
     messages.length > 0 ||
     (selectedFeature === "receipt" && (receiptExpanded || receiptItems.length > 0 || Boolean(receiptError))) ||
     (selectedFeature === "weeklyDeals" &&
-      (weeklyDealsProducts.length > 0 || Boolean(weeklyDealsError) || weeklyDealsLoading));
+      (weeklyDealsProducts.length > 0 || Boolean(weeklyDealsError) || weeklyDealsLoading)) ||
+    (selectedFeature === "halfPriceDeals" &&
+      (halfPriceItems.length > 0 || Boolean(halfPriceError) || halfPriceLoading));
+
+  const filteredHalfPriceItems = useMemo(() => {
+    const query = halfPriceSearch.trim().toLowerCase();
+
+    if (!query) {
+      return halfPriceItems;
+    }
+
+    return halfPriceItems.filter((item) => item.productText.toLowerCase().includes(query));
+  }, [halfPriceItems, halfPriceSearch]);
+
+  const halfPriceTotalPages = Math.max(1, Math.ceil(filteredHalfPriceItems.length / halfPriceItemsPerPage));
+  const paginatedHalfPriceItems = filteredHalfPriceItems.slice(
+    (halfPricePage - 1) * halfPriceItemsPerPage,
+    halfPricePage * halfPriceItemsPerPage
+  );
+
+  useEffect(() => {
+    setHalfPricePage(1);
+  }, [halfPriceSearch, halfPriceProvider]);
+
+  useEffect(() => {
+    if (halfPricePage > halfPriceTotalPages) {
+      setHalfPricePage(halfPriceTotalPages);
+    }
+  }, [halfPricePage, halfPriceTotalPages]);
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -783,6 +975,37 @@ export default function Chat() {
     }
   }
 
+  async function handleRetrieveHalfPriceDeals() {
+    const currentWeek = getCurrentIsoWeek();
+
+    setHalfPriceLoading(true);
+    setHalfPriceError("");
+
+    try {
+      const data = await fetchHalfPriceDeals({
+        week: currentWeek,
+        provider: halfPriceProvider
+      });
+      const normalized = normalizeHalfPriceDealsResponse(data);
+
+      if (!normalized) {
+        setHalfPriceItems([]);
+        setHalfPriceWeek("");
+        setHalfPriceError("Unable to load half-price deals. Please try again.");
+        return;
+      }
+
+      setHalfPriceItems(normalized.items);
+      setHalfPriceWeek(normalized.week || currentWeek);
+    } catch {
+      setHalfPriceItems([]);
+      setHalfPriceWeek("");
+      setHalfPriceError("Unable to load half-price deals. Please try again.");
+    } finally {
+      setHalfPriceLoading(false);
+    }
+  }
+
   return (
     <div className="page chat">
       <header className="topbar">
@@ -807,6 +1030,7 @@ export default function Chat() {
                 <option value="chat">Chat</option>
                 <option value="receipt">Upload receipt</option>
                 <option value="weeklyDeals">Generate weekly deals</option>
+                <option value="halfPriceDeals">Retrieve half price items</option>
               </select>
             </label>
           </section>
@@ -876,6 +1100,51 @@ export default function Chat() {
 
             {weeklyDealsError ? <p className="error">{weeklyDealsError}</p> : null}
             <WeeklyDealsTable products={weeklyDealsProducts} week={weeklyDealsWeek} />
+          </section>
+        ) : null}
+
+        {selectedFeature === "halfPriceDeals" ? (
+          <section className="receipt-panel">
+            <div className="receipt-results-header">
+              <div>
+                <h2>Retrieve half price items</h2>
+                <p>Load all returned half-price items for the current ISO week and filter them on screen.</p>
+              </div>
+              <div className="receipt-actions">
+                <label className="feature-select half-price-provider-select">
+                  <span>Provider</span>
+                  <select value={halfPriceProvider} onChange={(e) => setHalfPriceProvider(e.target.value)}>
+                    {halfPriceProviders.map((provider) => (
+                      <option key={provider} value={provider}>
+                        {provider}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                <button
+                  className="primary"
+                  type="button"
+                  onClick={handleRetrieveHalfPriceDeals}
+                  disabled={halfPriceLoading}
+                >
+                  {halfPriceLoading ? "Loading…" : "Retrieve half price items"}
+                </button>
+              </div>
+            </div>
+
+            <p className="receipt-meta">Week: {halfPriceWeek || getCurrentIsoWeek()}</p>
+            {halfPriceError ? <p className="error">{halfPriceError}</p> : null}
+            {(halfPriceItems.length > 0 || halfPriceSearch) && !halfPriceError ? (
+              <HalfPriceDealsList
+                items={paginatedHalfPriceItems}
+                search={halfPriceSearch}
+                onSearchChange={setHalfPriceSearch}
+                page={halfPricePage}
+                totalPages={halfPriceTotalPages}
+                onPrevPage={() => setHalfPricePage((prev) => Math.max(1, prev - 1))}
+                onNextPage={() => setHalfPricePage((prev) => Math.min(halfPriceTotalPages, prev + 1))}
+              />
+            ) : null}
           </section>
         ) : null}
 

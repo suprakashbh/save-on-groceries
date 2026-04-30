@@ -16,6 +16,10 @@ const weeklyDealsUrl =
   import.meta.env.VITE_WEEKLY_DEALS_URL ||
   "https://2xtv24ztwk.execute-api.us-east-1.amazonaws.com/poc/weekly-deals";
 
+const halfPriceDealsUrl =
+  import.meta.env.VITE_HALF_PRICE_DEALS_URL ||
+  "https://2xtv24ztwk.execute-api.us-east-1.amazonaws.com/poc/retrieve-half-price-deals";
+
 export async function fetchDeals(message, sessionId) {
   const token = getIdToken();
 
@@ -116,6 +120,39 @@ export async function fetchWeeklyDeals() {
         ? data
         : data?.message || data?.details || JSON.stringify(data);
     throw new Error(message || `Weekly deals request failed: ${response.status}`);
+  }
+
+  return data;
+}
+
+export async function fetchHalfPriceDeals({ week, provider }) {
+  const token = getIdToken();
+  const params = new URLSearchParams();
+
+  if (week) {
+    params.set("week", week);
+  }
+
+  if (provider && provider !== "all") {
+    params.set("provider", provider);
+  }
+
+  const response = await fetch(`${halfPriceDealsUrl}?${params.toString()}`, {
+    method: "GET",
+    headers: {
+      ...(token ? { Authorization: `Bearer ${token}` } : {})
+    }
+  });
+
+  const contentType = response.headers.get("content-type") || "";
+  const data = contentType.includes("application/json") ? await response.json() : await response.text();
+
+  if (!response.ok) {
+    const message =
+      typeof data === "string"
+        ? data
+        : data?.message || data?.details || JSON.stringify(data);
+    throw new Error(message || `Half-price deals request failed: ${response.status}`);
   }
 
   return data;

@@ -445,6 +445,77 @@ body {
   padding-top: 4px;
 }
 
+.half-price-provider-select {
+  min-width: 180px;
+}
+
+.half-price-search {
+  min-width: min(100%, 280px);
+}
+
+.half-price-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.half-price-card {
+  display: grid;
+  gap: 10px;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(31, 28, 79, 0.12);
+  background: linear-gradient(150deg, #ffffff 0%, #f7fafc 100%);
+  box-shadow: 0 12px 30px rgba(19, 32, 54, 0.06);
+}
+
+.half-price-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.half-price-provider {
+  font-weight: 700;
+  color: var(--wp-red);
+  text-transform: capitalize;
+}
+
+.half-price-product {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--wp-ink);
+  line-height: 1.5;
+}
+
+.half-price-meta {
+  color: #425066;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.half-price-meta a {
+  color: var(--wp-navy);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.14em;
+}
+
+.half-price-meta a:hover {
+  color: var(--wp-red);
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .bubble {
   padding: 16px 18px;
   border-radius: 18px;
